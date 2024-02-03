@@ -1,50 +1,90 @@
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
-*{ 
-  /*font-family:"Hack-ZeroSlash",monospace;*/
+*{   
   box-sizing: border-box;
 }
-body{
-background-color:rgba(0, 0, 5, 0.883);
-font-family:"Lato",sans-serif;
+body{ 
+background-color: black;
+font-family: "SF Mono",Menlo,Consolas,"Liberation Mono",Monaco,"Roboto Mono","Lucida Sans Typewriter",monospace;
 margin: 0;
 padding: 0;
 width: 100%;
 height: 100vh;
 color: white;  
-display: flex;
 position: absolute;
+}
+#particles-js{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
 }
 a{
   text-decoration: none;  
-  color: white;  
+  color: black;  
+  font-weight: bolder
 }
 ul{
   margin: 0;
   padding: 0;
   list-style: none;
 }
-img {
-  max-width: 100%;
+img{
+    max-width: 100%;
   height: auto;
-  
+}
+hr{
+  position: relative;  
+  border-radius: 100%;
+  top: 99vh;
+  width: 85%;
+  left: 8%;  
+  border: 1px solid rgba(124, 123, 123, 0.535);
+}
+hr:nth-of-type(2){
+  position: relative;  
+  border-radius: 100%;
+  top: 198vh;
+  width: 85%;
+  left: 8%;  
+  border: 1px solid rgba(124, 123, 123, 0.535);
+}
+
+hr:nth-of-type(3){
+  position: relative;  
+  border-radius: 100%;
+  top: 297vh;
+  width: 85%;
+  left: 8%;  
+  border: 1px solid rgba(124, 123, 123, 0.535);
+}
+
+hr:nth-of-type(4){
+  position: relative;  
+  border-radius: 100%;
+  top: 396vh;
+  width: 85%;
+  left: 8%;  
+  border: 1px solid rgba(124, 123, 123, 0.535);
 }
 header{ 
   position: fixed; 
   display: flex;
-  background-color: rgb(13, 18, 75);  
+  background-color: #38f9d7;  
   flex-direction: column;
-  width: 20%;
+  width: 15%;
   height: 100vh;
-
+  z-index: 99;
 }
 
 #foto-perfil{  
-  margin:20% auto;
-  width: 80%;
+  margin:50% auto 20% auto;
+  width: 85%;
   position: relative;
   border-radius: 50%;
+  box-shadow: 0px 0px 15px 5px black;
 }
 
 #navbar{ 
@@ -54,80 +94,102 @@ header{
 }
 li{  
   margin: 1vh;
-  font-size: 25px;
+  font-size: 20px; 
 }
 li a:hover{  
- color: aqua;
+ color:gray;
+ font-size: 23px;
+
 }
-
-
-#welcome-section{  
+#welcome-section{ 
 text-align: center;
 position: absolute;
-width: 75%;
-left: 22%; 
+width: 85%;
+left: 15%; 
 height: 100vh;
-
 }
-h1{ 
-  margin:40vh 0vh 5vh;
-  font-size:60px;
+#welcome-section h1{  
+  margin:40vh 5vh 5vh;
+  text-align: center;
+  font-size:70px;
   font-weight: 900;
 }
-h2{
+h2{  
+  color: white;
+  text-align: center;
+  margin:10vh 5.5vh 5vh;
+  font-size:40px;
+  font-weight: 500;
+}
+h3{
+  text-align: center;
   font-size:30px;
   font-weight: 500;
 }
-hr{
-  margin: 2vh;
-  border-radius:70%;
+.float{
+  font-family: "SF Mono",Menlo,Consolas,"Liberation Mono",Monaco,"Roboto Mono","Lucida Sans Typewriter",monospace;
+width: 10%;
+height: 4vh;
+border:0;
+background-color:#38f9d7;
+font-weight: 900;
+font-size: 18px;
+transition: .5s, color .10s;
+-webkit-transition: .5s, color .10s;
+-moz-transition: .5s, color .10s;
+ 
+}
+.float:hover{
+  border-radius: 5%;
+  color: #38f9d7;
+  background-color: black;
+  box-shadow: 1px 1px 10px 5px #38f9d7;
+  transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+  -moz-transform:translate(0px,5px);
+}
+            
+        
+#down-icon:hover{
+  width: 70px;  
+}
 
-}
-section :nth-child(5){
-position: relative;
-top: 26vh;
-}
+/*Welcome end*/
 
 #sobre-mi{
-background-color: red; 
 position: absolute;
-width: 75%;
-left: 22%; 
+width: 85%;
+left: 15%; 
 height: 100vh;
 top: 100%;
 }
-#sobre-mi p{
-  margin:40vh 0vh 5vh;
-  font-size:20px;
-  font-weight: 500;
-}
+
+
 #projects{
-  background-color: blue; 
+
 position: absolute;
-width: 75%;
-left: 22%; 
+width: 85%;
+left: 15%; 
 height: 100vh;
 top: 200%;
 }
 
 #skills{
-  background-color: green; 
+ 
   position: absolute;
-  width: 75%;
-  left: 22%; 
+  width: 85%;
+  left: 15%; 
   height: 100vh;
   top: 300%; 
 }
 #contact{
-  background-color:purple; 
+ 
   position: absolute;
-  width: 75%;
-  left: 22%; 
-  height: 100vh;
+  width: 85%;
+  left: 15%; 
+  height: 30vh;
   top: 400%; 
 }
-
-
 
 
 
