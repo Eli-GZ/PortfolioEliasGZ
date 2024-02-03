@@ -123,6 +123,7 @@ h2{
   white-space: nowrap;
   overflow: hidden;
 }
+
 h2::after {
   content: "|";
   display: inline-block;
