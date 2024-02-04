@@ -15,33 +15,23 @@ height: 100vh;
 color: white;  
 position: absolute;
 }
-#particles-js{
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
-}
 a{
   text-decoration: none;  
   color: black;  
   font-weight: bolder
 }
-ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 img{
     max-width: 100%;
   height: auto;
 }
+/*LINEAS*/
 hr{
   position: relative;  
   border-radius: 100%;
   top: 99vh;
   width: 85%;
   left: 8%;  
-  border: 1px solid rgba(124, 123, 123, 0.535);
+  border: 1px solid #38f9d7;
 }
 hr:nth-of-type(2){
   position: relative;  
@@ -49,26 +39,27 @@ hr:nth-of-type(2){
   top: 198vh;
   width: 85%;
   left: 8%;  
-  border: 1px solid rgba(124, 123, 123, 0.535);
+  border: 1px solid #38f9d7;
 }
-
 hr:nth-of-type(3){
   position: relative;  
   border-radius: 100%;
   top: 297vh;
   width: 85%;
   left: 8%;  
-  border: 1px solid rgba(124, 123, 123, 0.535);
+  border: 1px solid #38f9d7;
 }
-
 hr:nth-of-type(4){
   position: relative;  
   border-radius: 100%;
   top: 396vh;
   width: 85%;
   left: 8%;  
-  border: 1px solid rgba(124, 123, 123, 0.535);
+  border: 1px solid #38f9d7;
 }
+/*LINEAS*/
+
+/*NAVBAR & PROFILE*/
 header{ 
   position: fixed; 
   display: flex;
@@ -78,7 +69,6 @@ header{
   height: 100vh;
   z-index: 99;
 }
-
 #foto-perfil{  
   margin:50% auto 20% auto;
   width: 85%;
@@ -86,11 +76,15 @@ header{
   border-radius: 50%;
   box-shadow: 0px 0px 15px 5px black;
 }
-
 #navbar{ 
   margin-bottom:0;
   margin: 0 auto;
   text-align: center;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 li{  
   margin: 1vh;
@@ -98,8 +92,15 @@ li{
 }
 li a:hover{  
  color:gray;
- font-size: 23px;
+ font-size: 23px; 
+}
 
+/*SECTION WELCOME*/
+#particles-js{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
 }
 #welcome-section{ 
 text-align: center;
@@ -123,13 +124,11 @@ h2{
   white-space: nowrap;
   overflow: hidden;
 }
-
 h2::after {
   content: "|";
   display: inline-block;
   animation: blink 0.7s infinite;
 }
-
 @keyframes blink {
   0%, 100% {
       opacity: 1;
@@ -144,8 +143,6 @@ h2::after {
  color: #38f9d7;
  
 }
-
-
 h3{
   text-align: center;
   font-size:30px;
@@ -175,15 +172,13 @@ transition: .5s, color .10s;
   font-size: 22px;
   -webkit-transform: translate(0px,5px);
   -moz-transform:translate(0px,5px);
-}
-            
-        
+}               
 #down-icon:hover{
   width: 70px;  
 }
 
-/*Welcome end*/
 
+/*SOBRE MI*/
 #sobre-mi{
 position: absolute;
 width: 85%;
@@ -192,9 +187,8 @@ height: 100vh;
 top: 100%;
 }
 
-
+/*PROYECTOS*/
 #projects{
-
 position: absolute;
 width: 85%;
 left: 15%; 
@@ -202,20 +196,453 @@ height: 100vh;
 top: 200%;
 }
 
-#skills{
- 
+/*HABILIDADES*/
+#skills{ 
   position: absolute;
   width: 85%;
   left: 15%; 
   height: 100vh;
   top: 300%; 
 }
-#contact{
+h4{  
+  margin: 0;
+  text-align: center;  
+  color: rgb(158, 158, 158);
+  height: 10vh;
+  width: 100%;  
+  font-size: 25px;  
+}
+.marcador{
+  margin:0;
+  margin-top:2.5vh ;
+  margin-bottom: 2.5vh;  
+}
+/*CAPES */
+.cape{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 92%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.cape:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity: 1;
+}
+.cape p{
+  color: black;
+margin-top:45%;
+font-weight: bold;
+font-size: 20px;
+}
+.capetwo{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 83.5%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capetwo:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity: 1;
+}
+.capetwo p{
+color: black;
+margin-top:45%;
+font-weight: bold;
+font-size: 25px;
+}
+.capethree{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 75.2%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capethree:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capethree p{
+color: black;
+margin-top:45%;
+font-weight: bold;
+font-size: 25px;
+}
+.capefour{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 67%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capefour:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capefour p{
+color: black;
+margin-top:45%;
+font-weight: bold;
+font-size: 22px;
+}
+.capefive{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 58%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capefive:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capefive p{
+color: black;
+margin-top:45%;
+font-weight: bold;
+font-size: 20px;
+}
+.capesix{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 50%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capesix:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capesix p{
+color: black;
+margin-top:45%;
+font-weight: bold;
+font-size: 25px;
+}
+.capeseven{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 21%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capeseven:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capeseven p{
+color: black;
+margin-top:45%;
+font-weight: bold;
+font-size: 22px;
+}
+.capeeight{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 91.8%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capeeight:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capeeight p{
+color: black;
+margin-top:40%;
+font-weight: bold;
+font-size: 20px;
+}
+.capenine{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 83.5%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capenine:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capenine p{
+color: black;
+margin-top:40%;
+font-weight: bold;
+font-size: 20px;
+}
+.capeten{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 75%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capeten:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capeten p{
+color: black;
+margin-top:40%;
+font-weight: bold;
+font-size: 20px;
+}
+.capeeleven{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 67%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capeeleven:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capeeleven p{
+color: black;
+margin-top:40%;
+font-weight: bold;
+font-size: 20px;
+}
+.capetwelve{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 58.5%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capetwelve:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capetwelve p{
+color: black;
+margin-top:40%;
+font-weight: bold;
+font-size: 25px;
+}
+.capethreet{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 50%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capethreet:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capethreet p{
+color: black;
+margin-top:40%;
+font-weight: bold;
+font-size: 22px;
+}
+.capefourt{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 33%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capefourt:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capefourt p{
+color: black;
+margin-top:40%;
+font-weight: bold;
+font-size: 22px;
+}
+.capefivet{
+  z-index: 1;
+  position: absolute;
+  text-align: center; 
+  border-radius: 10%; 
+  background-color:#38f9d7;
+  right: 8%;
+  width: 8%;  
+  height: 15vh;
+  opacity: 0;
+}
+.capefivet:hover{
+  border-radius: 10%;
+  transition:0.5s;
+  opacity:1;
+}
+.capefivet p{
+color: black;
+margin-top:40%;
+font-weight: bold;
+font-size: 22px;
+}
+/*CAPES */
+
+#container{
+  display: flex;
+  margin-top:7%;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 50%; 
+}
+#div-leng{
+  display: flex;  
+  text-align: center;
+  width: 100%; 
+  height: 25vh; 
+   
+}
+.box{
+  width: 100%;
+}
+.box img{
+  width: 100%;
+}
+
+.card2{ 
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+#div-frame{
+  display: flex;    
+  text-align: center;
+  width: 100%; 
+  height: 25vh; 
  
+}
+.box2{
+  width: 100%;
+  }
+.box2 img{
+    width: 17%;
+}
+
+/*container2*/
+
+#container2{
+  display: flex;
+  margin-top:5%;
+}
+.card3{
+  display: flex;
+  flex-direction: column;
+  width: 50%; 
+}
+#div-tools{
+  display: flex; 
+  text-align: center;
+  width: 100%; 
+  height: 25vh;   
+}
+.box3{
+  width: 100%;
+}
+.box3 img{
+    width: 100%;
+}
+
+.card4{  
+    display: flex;
+    flex-direction: column;
+    width: 50%;    
+}
+#div-extras{  
+  display: flex; 
+  text-align: center;
+  width: 100%; 
+  height: 25vh;  
+ 
+}
+.box4{
+    width: 100%;
+}
+.box4 img{
+      width: 30%;
+}
+
+
+
+/*CONTACT*/
+#contact{ 
   position: absolute;
   width: 85%;
   left: 15%; 
-  height: 30vh;
+  height: 100vh;
   top: 400%; 
 }
 
