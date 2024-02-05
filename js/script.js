@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
   var frases = [
-      "Programador trainee.",
+      "Programador Web.",
       "Front-End.",
       "Back-End."
   ];
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
               escribirTexto(i + 1);
           }, velocidadEscritura);
       } else {
-          // Esperar antes de borrar y cambiar la frase
+          
           setTimeout(function() {
               borrarTexto();
           }, tiempoEspera);
@@ -34,10 +34,10 @@ document.addEventListener("DOMContentLoaded", function() {
               borrarTexto();
           }, velocidadEscritura);
       } else {
-          // Cambiar a la siguiente frase
+         
           indiceFraseActual = (indiceFraseActual + 1) % frases.length;
 
-          // Esperar antes de empezar a escribir la siguiente frase
+          
           setTimeout(function() {
               escribirTexto(0);
           }, tiempoEspera);
