@@ -645,10 +645,46 @@ font-size: 22px;
   height: 100vh;
   top: 400%; 
 }
+#contact-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#form-box{
+  border-radius: 10%;
+  background-color: rgba(5, 230, 255, 0.087);
+  backdrop-filter: blur(10px);
+  width: 35%;
+ padding: 1% 5% 1% 5%;
+  flex-direction: column;
+  height: 60vh;
+}
+form input, textarea{ 
+  width: 100%;
+  margin-bottom: 2%;
+  background-color: black;
+  color: #38f9d7;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight:600;
+  padding: 5%;
+}
+textarea{
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 25vh;
+  max-height: 25vh;
+}
+#boton:hover{
+  box-shadow: 1px 1px 10px 5px #38f9d7;
 
-
-
-
+}
+#icon-box img{
+  margin-top: 5vh;
+  border-radius: 10%;
+  height: 10vh;
+}
 
 
 
