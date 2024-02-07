@@ -151,7 +151,7 @@ h3{
 .float{
 font-family: "SF Mono",Menlo,Consolas,"Liberation Mono",Monaco,"Roboto Mono","Lucida Sans Typewriter",monospace;
 width: 10%;
-height: 4vh;
+height: 3vh;
 border:0;
 border-radius: 8px;
 background-color:#38f9d7;
@@ -162,8 +162,11 @@ transition: .5s, color .10s;
 -moz-transition: .5s, color .10s;
  
 }
+span:hover{
+  color: #38f9d7;  
+}  
 .float:hover{
-  border-radius: 8px;  
+  border-radius: 8px;    
   background-color: black;
   box-shadow: 1px 1px 10px 5px #38f9d7;
   transform: translate(0px,5px);
@@ -171,10 +174,9 @@ transition: .5s, color .10s;
   font-size: 21px;
   -webkit-transform: translate(0px,5px);
   -moz-transform:translate(0px,5px);
+  cursor: pointer;
 } 
-span:hover{
-  color: #38f9d7;
-}              
+          
 #down-icon:hover{
   width: 70px;  
 }
@@ -688,10 +690,6 @@ textarea{
   border-radius: 10%;
   height: 10vh;
 }
-
-
-
-
 
 
 
