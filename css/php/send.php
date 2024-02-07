@@ -2,11 +2,11 @@
 $destino = "elias.d.gonzalez25@gmail.com";
 $nombre = $_POST["nombre"];
 $correo = $_POST["correo"];
-$telefono = $_POST["telefono"];
+$asunto = $_POST["asunto"];
 $mensaje = $_POST["mensaje"];
-$contenido = "Nombre: ". $nombre . "\nCorreo: " . $correo . "\nTeléfono: " . $telefono . "\nMensaje: " . $mensaje;
+$contenido = "Nombre: ". $nombre . "\nCorreo: " . $correo . "\nMensaje: " . $mensaje;
 
-mail($destino,"Consulta",$contenido);
-header("Location:index.html");
+mail($destino,$asunto,$contenido);
+header("Location:index.html/#skills");
 
 ?>
