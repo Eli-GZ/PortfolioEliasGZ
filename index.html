@@ -136,10 +136,10 @@
     <h2 class="marcador"><>Contactame.</h2>
     <div id="contact-box">
     <div id="form-box">
-      <form action="send.php" method="post">       
+      <form name="contacto" netlify action="/send">       
         <input type="text" name="nombre" placeholder="Nombre." required>      
         <input type="text" name="asunto" placeholder="Asunto." required>  
-        <input type="text" name="correo" placeholder="Correo electrónico." required>  
+        <input type="email" name="correo" placeholder="Correo electrónico." required>  
         <textarea name="mensaje" placeholder="Escriba aquí su mensaje." id="" cols="30" rows="10" required></textarea>
         <input type="submit" value="ENVIAR" id="boton">
       </form>
