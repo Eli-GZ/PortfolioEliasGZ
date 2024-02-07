@@ -163,16 +163,18 @@ transition: .5s, color .10s;
  
 }
 .float:hover{
-  border-radius: 8px;
-  color: #38f9d7;
+  border-radius: 8px;  
   background-color: black;
   box-shadow: 1px 1px 10px 5px #38f9d7;
   transform: translate(0px,5px);
   width: 12%;
-  font-size: 22px;
+  font-size: 21px;
   -webkit-transform: translate(0px,5px);
   -moz-transform:translate(0px,5px);
-}               
+} 
+span:hover{
+  color: #38f9d7;
+}              
 #down-icon:hover{
   width: 70px;  
 }
