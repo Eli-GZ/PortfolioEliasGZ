@@ -136,20 +136,19 @@
     <h2 class="marcador"><>Contactame.</h2>
     <div id="contact-box">
     <div id="form-box">
-      <form action="">       
-        <input type="text" name="Nombre" placeholder="Nombre.">      
-        <input type="text" name="correo" placeholder="Correo.">  
-        <input type="text" name="telefono" placeholder="Teléfono.">  
-        <textarea name="mensaje" placeholder="Escriba aquí su mensaje." id="" cols="30" rows="10"></textarea>
-        <input type="button" value="ENVIAR" id="boton">
+      <form action="send.php" method="post">       
+        <input type="text" name="nombre" placeholder="Nombre." required>      
+        <input type="text" name="correo" placeholder="Correo." required>  
+        <input type="text" name="telefono" placeholder="Teléfono." required>  
+        <textarea name="mensaje" placeholder="Escriba aquí su mensaje." id="" cols="30" rows="10" required></textarea>
+        <input type="submit" value="ENVIAR" id="boton">
       </form>
     </div>
     <div id="icon-box">
       <a href="https://github.com/Eli-GZ" target="_blank"><img src="https://camo.githubusercontent.com/2dbceb61cec845beb4b5c46a5df6cf226495842d682d01de3658ab3c8e09efa9/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6475334a336358797a686a3735494f6776412f67697068792e676966" alt=""></a>
       <a href="https://www.linkedin.com/in/elias-gz/" target="_blank"><img src="./img/Contact/link-icon.png" alt=""></a>
-      <a href="https://github.com/Eli-GZ" target="_blank"><img src="./img/Contact/x-icon.png" alt=""></a>
-      <a href="https://github.com/Eli-GZ" target="_blank"><img src="./img/Contact/discord-icon.png" alt=""></a>
-      <a href="elias.d.gonzalez25@gmail.com" target="_blank"><img src="./img/Contact/gmail.icon.png" alt=""></a>
+      <a href="https://twitter.com/EliasGz_dev" target="_blank"><img src="./img/Contact/x-icon.png" alt=""></a>
+      <a href="mailto:elias.d.gonzalez25@gmail.com" target="_blank"><img src="./img/Contact/gmail.icon.png" alt=""></a>
     </div>
   </div>
   </footer>
