@@ -7,6 +7,6 @@ $mensaje = $_POST["mensaje"];
 $contenido = "Nombre: ". $nombre . "\nCorreo: " . $correo . "\nMensaje: " . $mensaje;
 
 mail($destino,$asunto,$contenido);
-//header("Location:index.html/#skills");
+header("Location:index.html");
 
 ?>
