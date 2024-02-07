@@ -1,0 +1,111 @@
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+*{   
+  box-sizing: border-box;
+}
+body{ 
+background-color: black;
+font-family: "SF Mono",Menlo,Consolas,"Liberation Mono",Monaco,"Roboto Mono","Lucida Sans Typewriter",monospace;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100vh;
+color: white;  
+position: absolute;
+}
+a{
+  text-decoration: none;  
+  color: black;  
+  font-weight: bolder
+}
+img{
+    max-width: 100%;
+  height: auto;
+}
+
+
+/*SECTION WELCOME*/
+#particles-js{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+#welcome-section{ 
+text-align: center;
+position: absolute;
+width: 100%;
+height: 100vh;
+}
+#welcome-section h1{  
+  margin:30vh 5vh 5vh;
+  text-align: center;
+  font-size:70px;
+  font-weight: 900;
+}
+.float{
+font-family: "SF Mono",Menlo,Consolas,"Liberation Mono",Monaco,"Roboto Mono","Lucida Sans Typewriter",monospace;
+width: 12%;
+height: 4vh;
+border:0;
+color: black;
+border-radius: 8px;
+background-color:#38f9d7;
+font-weight: 900;
+font-size: 18px;
+transition: .5s, color .10s;
+-webkit-transition: .5s, color .10s;
+-moz-transition: .5s, color .10s;
+ 
+}
+.float:hover{
+  border-radius: 8px;  
+  color: #38f9d7;
+  background-color: black;
+  box-shadow: 1px 1px 10px 5px #38f9d7;
+  transform: translate(0px,5px);
+  width: 14%;
+  font-size: 21px;
+  -webkit-transform: translate(0px,5px);
+  -moz-transform:translate(0px,5px);
+} 
+span:hover{
+  color: #38f9d7;
+}              
+#down-icon:hover{
+  width: 70px;  
+}
+
+
+/*CONTACT*/
+#contact{ 
+  position: absolute;
+  width: 100%;    
+  top:50%; 
+}
+#contact-box{
+  margin-top:10vh ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#icon-box img{
+  margin-top: 5vh;
+  border-radius: 10%;
+  height: 10vh;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+  
+}
