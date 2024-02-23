@@ -76,6 +76,11 @@ header{
   border-radius: 50%;
   box-shadow: 0px 0px 15px 5px black;
 }
+#menu-hamburger{
+  margin:0% auto;
+  width: 15%;
+ display: none;
+}
 #navbar{ 
   margin-bottom:0;
   margin: 0 auto;
@@ -281,7 +286,6 @@ top: 200%;
 }
 .project-info a:hover{  
   color:#38f9d7;  
-
 }
 
 
@@ -842,9 +846,247 @@ textarea{
 }
 
 
+@media (max-width: 991.98px) {
+  #foto-perfil{     
+    width: 75%; 
+  }
+  #menu-hamburger{    
+   display: none;
+  }
+  li{    
+    font-size: 18px; 
+  }
+  li a:hover{   
+   font-size: 20px; 
+  }   
+  #welcome-section h1{  
+    margin:30vh 5vh 5vh;
+    font-size:50px;    
+  }
+  h2{   
+    margin:10vh 36% 5vh;
+    font-size:30px;   
+  }  
+  .float{ 
+  width: 20%;
+  height: 7vh;
+  font-size: 18px; 
+  }  
+  .float:hover{   
+    width: 20%;
+    height: 7vh;
+    font-size: 18px;    
+  } 
 
-
-
-@media screen and (max-width:900px) {
-  
+  /*CARRUCEL PROYECTOS*/
+.project-container{ 
+    margin-top: 20%;
+  }
+.project-card{  
+  width: 32%;  
 }
+.project-image{
+  height: 30vh; 
+}
+.project-info button{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;    
+  width: 100%;
+  height:4vh;  
+}
+.project-info button:hover{  
+  background-color: black;
+  color:#38f9d7;  
+  box-shadow: 1px 1px 10px 5px #38f9d7; 
+  cursor: pointer;
+}
+.project-info a:hover{  
+  color:#38f9d7;  
+}
+
+.project-title{
+ color: gray;
+  font-size: 20PX;
+}
+
+.collection-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.collection{
+  position: relative;
+}
+.collection img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.collection p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+.collection:nth-child(3){
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
+
+/*CAPES */
+.cape{  
+  height: 9vh;
+}
+.cape p{
+font-weight: bold;
+font-size: 12px;
+}
+.capetwo{ 
+  height: 9vh; 
+}
+.capetwo p{
+margin-top:35%;
+font-size: 20px;
+}
+.capethree{ 
+  height: 9vh; 
+}
+.capethree p{
+  margin-top:35%;
+  font-size: 20px;
+}
+.capefour{ 
+  height: 9vh;
+}
+.capefour p{
+  margin-top:35%;
+  font-size: 20px;
+}
+.capefive{
+  height: 9vh;
+}
+
+.capefive p{
+  margin-top:35%;
+  font-size: 20px;
+}
+.capesix{
+  height: 9vh;
+}
+.capesix p{
+  margin-top:35%;
+  font-size: 22px;
+}
+.capeseven{
+  height: 9vh;
+}
+.capeseven p{
+  margin-top:35%;
+  font-size: 20px;
+}
+.capeeight{
+  height: 9vh;
+}
+
+.capeeight p{
+  margin-top:20%;
+  font-size: 17px;
+}
+.capenine{
+  height: 9vh;
+}
+.capenine p{
+  margin-top:18%;
+  font-size: 15px;
+}
+.capeten{
+  height: 9vh;
+}
+
+.capeten p{
+  margin-top:20%;
+  font-size: 18px;
+}
+.capeeleven{
+  height: 9vh;
+}
+
+.capeeleven p{
+  margin-top:35%;
+  font-size: 12px;
+}
+.capetwelve{
+  height: 9vh;
+}
+
+.capetwelve p{
+  margin-top:35%;
+  font-size: 20px;
+}
+.capethreet{
+  height: 9vh;
+}
+
+.capethreet p{
+  margin-top:35%;
+  font-size: 18px;
+}
+.capefourt{
+  height: 9vh;
+}
+
+.capefourt p{
+  margin-top:35%;
+  font-size: 18px;
+}
+.capefivet{
+  height: 9vh;
+}
+
+.capefivet p{
+  margin-top:35%;
+  font-size: 17px;
+}
+/*CAPES */
+
+.card{  
+  width: 75%; 
+}
+.card2{ 
+  width: 75%;
+}
+.card3{  
+  width: 75%; 
+}
+.card4{      
+    width: 75%;    
+}
+
+/*CONTACT*/
+
+#form-box{
+  width: 50%;
+  height: 60vh;
+}
+
+#icon-box img{
+  height: 9vh;
+}
+
+}
+
+@media (max-width:767px) { 
+ 
+
+}
+
+@media (max-width: 330px) { 
+
+ }
