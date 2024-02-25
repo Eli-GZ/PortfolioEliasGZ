@@ -10,6 +10,7 @@ background-color: black;
 font-family: "SF Mono",Menlo,Consolas,"Liberation Mono",Monaco,"Roboto Mono","Lucida Sans Typewriter",monospace;
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 width: 100%;
 height: 100vh;
 color: white;  
@@ -1338,10 +1339,41 @@ font-size: 20px;
 }
 
 @media (max-width:767px) { 
+  /*LINEAS*/
+hr{     
+  width: 100vw;
+ 
+  border: 1px solid #38f9d7;
+}
+hr:nth-of-type(2){
+  position: relative;  
+  border-radius: 100%;
+  top: 198vh;
+  width: 85%;
+  left: 8%;  
+  border: 1px solid #38f9d7;
+}
+hr:nth-of-type(3){
+  position: relative;  
+  border-radius: 100%;
+  top: 297vh;
+  width: 85%;
+  left: 8%;  
+  border: 1px solid #38f9d7;
+}
+hr:nth-of-type(4){
+  position: relative;  
+  border-radius: 100%;
+  top: 396vh;
+  width: 85%;
+  left: 8%;  
+  border: 1px solid #38f9d7;
+}
+/*LINEAS*/
 
   header{    
-    width: 100%;
-    height: 8vh;  
+    width: 100vw;
+    height: 9vh;  
     transition:0.5s;  
   }
   #foto-perfil{  
@@ -1349,7 +1381,7 @@ font-size: 20px;
   }
   #menu-hamburger{
     margin-top:3%;    
-    width: 5%;
+    width: 4%;
    display: block;
   }
  
@@ -1357,14 +1389,11 @@ font-size: 20px;
     display: none;     
   }    
 
-  #welcome-section{ 
-    text-align: center;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
+  #welcome-section{      
+    height: 100vh;    
     }
 #welcome-section h1{  
-    margin:50vh 0vh 0vh;
+    margin:30vh 0vh 0vh;
     font-size:50px;    
   }
 h2{   
@@ -1382,6 +1411,9 @@ h2{
     font-size: 18px;    
 } 
   /*SOBRE MI*/
+#sobre-mi{
+width: 100%;
+  }
 h3{
   font-size: 30px;
 } 

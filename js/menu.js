@@ -9,7 +9,7 @@ function menuClick() {
     menu.addEventListener('click', () => {
         if (!isActive) {                 
           navbar.style.display = "block";
-          header.style.height ="25vh"  
+          header.style.height ="30vh"  
           isActive = true;      
                              
         } else {
