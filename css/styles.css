@@ -390,8 +390,8 @@ h4{
   opacity: 1;
 }
 .cape p{
-  color: black;
-margin-top:45%;
+ color: black; 
+margin-top:6vh;
 font-weight: bold;
 font-size: 20px;
 }
@@ -413,7 +413,7 @@ font-size: 20px;
 }
 .capetwo p{
 color: black;
-margin-top:45%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 25px;
 }
@@ -435,7 +435,7 @@ font-size: 25px;
 }
 .capethree p{
 color: black;
-margin-top:45%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 25px;
 }
@@ -457,7 +457,7 @@ font-size: 25px;
 }
 .capefour p{
 color: black;
-margin-top:45%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 22px;
 }
@@ -479,7 +479,7 @@ font-size: 22px;
 }
 .capefive p{
 color: black;
-margin-top:45%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 20px;
 }
@@ -501,7 +501,7 @@ font-size: 20px;
 }
 .capesix p{
 color: black;
-margin-top:45%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 25px;
 }
@@ -523,7 +523,7 @@ font-size: 25px;
 }
 .capeseven p{
 color: black;
-margin-top:45%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 22px;
 }
@@ -545,7 +545,7 @@ font-size: 22px;
 }
 .capeeight p{
 color: black;
-margin-top:40%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 20px;
 }
@@ -567,7 +567,7 @@ font-size: 20px;
 }
 .capenine p{
 color: black;
-margin-top:40%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 20px;
 }
@@ -589,7 +589,7 @@ font-size: 20px;
 }
 .capeten p{
 color: black;
-margin-top:40%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 20px;
 }
@@ -611,7 +611,7 @@ font-size: 20px;
 }
 .capeeleven p{
 color: black;
-margin-top:40%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 20px;
 }
@@ -633,7 +633,7 @@ font-size: 20px;
 }
 .capetwelve p{
 color: black;
-margin-top:40%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 25px;
 }
@@ -655,7 +655,7 @@ font-size: 25px;
 }
 .capethreet p{
 color: black;
-margin-top:40%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 22px;
 }
@@ -677,7 +677,7 @@ font-size: 22px;
 }
 .capefourt p{
 color: black;
-margin-top:40%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 22px;
 }
@@ -699,7 +699,7 @@ font-size: 22px;
 }
 .capefivet p{
 color: black;
-margin-top:40%;
+margin-top:6vh;
 font-weight: bold;
 font-size: 22px;
 }
@@ -1416,640 +1416,335 @@ font-size: 20px;
     .float:hover{   
       width: 25%;     
     }                  
-    /*SOBRE MI*/
+    /*SOBRE MI*/    
     #sobre-mi{
     position: absolute;    
     text-align: center;    
+    padding-top: 5vh;
     width: 100%; 
-    left: 0;  
+    left: 0;    
     }
     .sobre-text{  
       margin: 8% auto;  
-      width: 80%;
+      width: 100%;
     }
     /*PROYECTOS*/
     #projects{
     position: absolute;    
-    text-align: center;    
+    text-align: center;   
+    padding-top: 5vh; 
     width: 100%; 
     left: 0;     
     }
-    /*CARRUCEL PROYECTOS*/
-    
-    .project-container{
-      display: flex;  
-      overflow-x: auto;
-      scroll-behavior: smooth;
-      margin: 5%;
+    /*CARRUCEL PROYECTOS*/    
+    .project-container{     
       margin-top: 10%;
-    }
-    .project-container::-webkit-scrollbar{
-      display: none;
-    }
-    .project-card{
-      flex: 0 0 auto;
+    }  
+    .project-card{  
       width: 31%;
-      height: 100vh;
-      margin-right: 1%; 
-      margin-left: 1%;
-      
+      height: 100vh;      
     }
-    .project-image{
-      border-radius: 10px;  
+    .project-image{ 
       width: 100%;
-      height: 40vh;
-      cursor: pointer;
-      overflow: hidden;
-    }
-    .project-thumb{
+      height: 30vh;
+    } 
+    .project-title{
+      height: 5vh;
+    }   
+    button a{
       width: 100%;
-      height: 100%;
-      object-fit: cover;
     }
-    
-    .card-btn{
-      position: absolute;
-      bottom: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      padding: 10px;
-      width: 90%;
-      text-transform: capitalize;
-      border: none;
-      outline: none;
-      background-color:pink;  
-      transition: 0.5s;
-      cursor: pointer;
-      opacity: 0;
-      border-radius: 5px;
-    }
-    .project-card:hover .card-btn{
-      opacity: 1;
-    }
-    .card-btn:hover{
-      background-color: black;
-      color: white;
-    }
-    .project-info{
-      font-size: 15px;    
-      width: 100%;
-      height:2vw;
-      padding-top: 0px;
+    button a:hover{
+      color: #38f9d7;
     }
     .project-info button{
-      font-size: 16px;    
-      width: 38%;
-      height:2.5vh; 
-      background-color: #38f9d7;
-      border: none;
-      font-family: "SF Mono",Menlo,Consolas,"Liberation Mono",Monaco,"Roboto Mono","Lucida Sans Typewriter",monospace;
-      font-weight: 600;
-    }
-    .project-info button:hover{  
-      background-color: black;
-      color:#38f9d7;  
-      box-shadow: 1px 1px 10px 5px #38f9d7; 
-      cursor: pointer;
-    }
-    .project-info a:hover{  
-      color:#38f9d7;  
-    }
-    
-    
+      font-size: 18px;    
+      width: 100%;
+     margin-bottom: 1vh;
+      height:4vh;    
+        
+    }          
     .project-title{
      color: gray;
       font-size: 20PX;
-    }
-    
-    .pre-btn,.nxt-btn{
-      background-color: #38f9d7;
-      background: none;
-      border: none;
-      width: 5%;
-      height: 100vh;
-      position: absolute;
-      top: 0;
-      display: flex;
-      justify-content:center;
-      align-items: center;
-      cursor: pointer;
-      z-index: 998;
-    }
-    .pre-btn{
-      left: 0;
-      transform: rotate(180deg);
-    }
-    .nxt-btn{
-      right: 0;
-    }
-    .pre-btn img,
-    .nxt-btn img{
-      opacity: 0.2;
-    }
-    .pre-btn:hover img,
-    .nxt-btn:hover img{
-      opacity: 1;
-    }
-    .collection-container{
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
-    }
-    .collection{
-      position: relative;
-    }
-    .collection img{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .collection p{
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%);
-      text-align: center;
-      color: white;
-      font-size: 50px;
-      text-transform: capitalize;
-    }
-    .collection:nth-child(3){
-      grid-column: span 2;
-      margin-bottom: 10px;
-    }
-    
-    /*CARRUCEL PROYECTOS*/
-    
+    }          
+    /*CARRUCEL PROYECTOS*/    
     /*HABILIDADES*/
     #skills{ 
       position: absolute;    
-      text-align: center;    
+      text-align: center;
+      padding-top: 5vh;    
       width: 100%; 
       left: 0;  
-    }
-    h4{  
-      margin: 0;
-      text-align: center;  
-      color: rgb(158, 158, 158);
-      height: 10vh;
-      width: 100%;  
-      font-size: 25px;  
-    }
-    .marcador{
-      margin:0;
-      margin-top:2.5vh ;
-      margin-bottom: 2.5vh;  
-    }
-    /*CAPES */
-    .cape{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 92%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .cape:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity: 1;
-    }
-    .cape p{
-      color: black;
-    margin-top:45%;
-    font-weight: bold;
-    font-size: 20px;
-    }
-    .capetwo{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 83.5%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capetwo:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity: 1;
-    }
-    .capetwo p{
-    color: black;
-    margin-top:45%;
-    font-weight: bold;
-    font-size: 25px;
-    }
-    .capethree{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 75.2%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capethree:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capethree p{
-    color: black;
-    margin-top:45%;
-    font-weight: bold;
-    font-size: 25px;
-    }
-    .capefour{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 67%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capefour:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capefour p{
-    color: black;
-    margin-top:45%;
-    font-weight: bold;
-    font-size: 22px;
-    }
-    .capefive{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 58%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capefive:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capefive p{
-    color: black;
-    margin-top:45%;
-    font-weight: bold;
-    font-size: 20px;
-    }
-    .capesix{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 50%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capesix:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capesix p{
-    color: black;
-    margin-top:45%;
-    font-weight: bold;
-    font-size: 25px;
-    }
-    .capeseven{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 21%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capeseven:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capeseven p{
-    color: black;
-    margin-top:45%;
-    font-weight: bold;
-    font-size: 22px;
-    }
-    .capeeight{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 91.8%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capeeight:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capeeight p{
-    color: black;
-    margin-top:40%;
-    font-weight: bold;
-    font-size: 20px;
-    }
-    .capenine{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 83.5%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capenine:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capenine p{
-    color: black;
-    margin-top:40%;
-    font-weight: bold;
-    font-size: 20px;
-    }
-    .capeten{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 75%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capeten:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capeten p{
-    color: black;
-    margin-top:40%;
-    font-weight: bold;
-    font-size: 20px;
-    }
-    .capeeleven{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 67%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capeeleven:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capeeleven p{
-    color: black;
-    margin-top:40%;
-    font-weight: bold;
-    font-size: 20px;
-    }
-    .capetwelve{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 58.5%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capetwelve:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capetwelve p{
-    color: black;
-    margin-top:40%;
-    font-weight: bold;
-    font-size: 25px;
-    }
-    .capethreet{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 50%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capethreet:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capethreet p{
-    color: black;
-    margin-top:40%;
-    font-weight: bold;
-    font-size: 22px;
-    }
-    .capefourt{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 33%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capefourt:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capefourt p{
-    color: black;
-    margin-top:40%;
-    font-weight: bold;
-    font-size: 22px;
-    }
-    .capefivet{
-      z-index: 1;
-      position: absolute;
-      text-align: center; 
-      border-radius: 10%; 
-      background-color:#38f9d7;
-      right: 8%;
-      width: 8%;  
-      height: 15vh;
-      opacity: 0;
-    }
-    .capefivet:hover{
-      border-radius: 10%;
-      transition:0.5s;
-      opacity:1;
-    }
-    .capefivet p{
-    color: black;
-    margin-top:40%;
-    font-weight: bold;
-    font-size: 22px;
-    }
-    /*CAPES */
-    
-    #container{
+    }       
+    #container{   
       display: flex;
-      margin-top:7%;
+      flex-direction: column;
+      align-items: center;
+      margin-top:5%;
+      height: 35vh;
+    }
+    h4{
+      height: 5vh;
     }
     .card{
       display: flex;
       flex-direction: column;
-      width: 50%; 
+      width: 60%; 
     }
     #div-leng{
       display: flex;  
       text-align: center;
       width: 100%; 
-      height: 25vh; 
-       
-    }
-    .box{
-      width: 100%;
-    }
-    .box img{
-      width: 100%;
-    }
-    
+      height:15vh;        
+    }    
     .card2{ 
       display: flex;
       flex-direction: column;
-      width: 50%;
+      width: 60%;
     }
     #div-frame{
       display: flex;    
       text-align: center;
       width: 100%; 
-      height: 25vh; 
+      height: 15vh; 
      
-    }
-    .box2{
-      width: 100%;
-      }
-    .box2 img{
-        width: 17%;
-    }
-    
-    /*container2*/
-    
+    }       
+    /*container2*/    
     #container2{
       display: flex;
-      margin-top:5%;
+      flex-direction: column;
+      align-items: center;
+      margin-top:5%; 
+      height: 35vh;   
     }
     .card3{
       display: flex;
       flex-direction: column;
-      width: 50%; 
+      width: 60%; 
     }
     #div-tools{
       display: flex; 
       text-align: center;
       width: 100%; 
-      height: 25vh;   
-    }
-    .box3{
-      width: 100%;
-    }
-    .box3 img{
-        width: 100%;
-    }
+      height: 15vh;   
+    }   
     
     .card4{  
         display: flex;
         flex-direction: column;
-        width: 50%;    
+        width: 60%;    
     }
     #div-extras{  
       display: flex; 
       text-align: center;
       width: 100%; 
-      height: 25vh;  
+      height: 15vh;  
      
     }
-    .box4{
-        width: 100%;
+   
+    /*CAPES */
+    .cape{       
+      right: 70.5%;
+      width: 9%;  
+      height: 10vh;      
     }
-    .box4 img{
-          width: 30%;
+    .cape:hover{     
+      opacity: 1;
     }
-    
+    .cape p{
+    overflow: hidden;    
+    margin-top: 4vh;
+    font-size: 12px;
+    }
+    .capetwo{
+      right: 60.5%;
+      width: 9%;  
+      height: 10vh;      
+    }
+    .capetwo:hover{     
+      opacity: 1;
+    }
+    .capetwo p{    
+    margin-top:4vh;
+    font-size: 20px;
+    }
+    .capethree{
+      right: 50.5%;
+      width: 9%;  
+      height: 10.5vh;     
+    }
+    .capethree:hover{    
+      opacity:1;
+    }
+    .capethree p{
+      margin-top:4vh;
+      font-size: 20px;
+    }
+    .capefour{
+      right: 40.5%;
+      width: 9%;  
+      height: 10vh;    
+    }
+    .capefour:hover{     
+      opacity:1;
+    }
+    .capefour p{
+      margin-top:4vh;
+      font-size: 20px;
+    }
+    .capefive{
+      right: 30.5%;
+      width: 9%;  
+      height: 10vh;      
+    }
+    .capefive:hover{     
+      opacity:1;
+    }
+    .capefive p{
+      margin-top:4vh;
+      font-size: 20px;
+    }
+    .capesix{
+      right: 20.5%;
+      width: 9%;  
+      height: 10.5vh;       
+    }
+    .capesix:hover{     
+      opacity:1;
+    }
+    .capesix p{
+      margin-top:4vh;
+      font-size: 22px;
+    }
+    .capeseven{
+      right: 45.5%;
+      width: 9%;  
+      height: 10vh;
+    }
+    .capeseven:hover{     
+      opacity:1;
+    }
+    .capeseven p{
+      margin-top:4vh;
+      font-size: 20px;
+    }
+    .capeeight{
+      right: 70.5%;
+      width: 9%;  
+      height: 10vh;  
+    }
+    .capeeight:hover{    
+      opacity:1;
+    }
+    .capeeight p{
+      margin-top:3vh;
+      font-size: 16px;
+    }
+    .capenine{
+      right: 60.5%;
+      width: 9%;  
+      height: 10vh;  
+    }
+    .capenine:hover{  
+      opacity:1;
+    }
+    .capenine p{
+      margin-top:2vh;
+      font-size: 16px;
+    }
+    .capeten{
+      right: 50.5%;
+      width: 9%;  
+      height: 10vh;  
+    }
+    .capeten:hover{   
+      opacity:1;
+    }
+    .capeten p{
+      margin-top:3vh;
+      font-size: 16px;
+    }
+    .capeeleven{
+      right: 40.5%;
+      width: 9%;  
+      height: 10vh;  
+    }
+    .capeeleven:hover{
+      opacity:1;
+    }
+    .capeeleven p{
+      margin-top:3vh;
+      font-size: 16px;
+    }
+    .capetwelve{
+      right: 30.5%;
+      width: 9%;  
+      height: 10vh;  
+    }
+    .capetwelve:hover{    
+      opacity:1;
+    }
+    .capetwelve p{
+      margin-top:4vh;
+      font-size: 20px;
+    }
+    .capethreet{
+      right: 20.5%;
+      width: 9%;  
+      height: 10vh;  
+    }
+    .capethreet:hover{     
+      opacity:1;
+    }
+    .capethreet p{
+      margin-top:4vh;
+      font-size:18px;
+    }
+    .capefourt{
+      right: 60.5%;
+      width: 9%;  
+      height: 10vh;  
+    }
+    .capefourt:hover{     
+      opacity:1;
+    }
+    .capefourt p{
+      margin-top:4vh;
+      font-size: 18px;
+    }
+    .capefivet{
+      right: 30.5%;
+      width: 9%;  
+      height: 10vh;  
+    }
+    .capefivet:hover{      
+      opacity:1;
+    }
+    .capefivet p{
+      margin-top:4vh;
+      font-size: 17px;
+    }
+    /*CAPES */        
     /*CONTACT*/
     #contact{ 
       position: absolute;    
-      text-align: center;    
+      text-align: center; 
+      padding-top: 5vh;   
       width: 100%; 
       left: 0;   
     }
     #contact-box{
-      margin-top:10vh ;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      margin-top:5vh;     
     }
     #form-box{
-      border-radius: 10%;
-      background-color: rgba(5, 230, 255, 0.087);
-      backdrop-filter: blur(10px);
-      width: 35%;
-     padding: 1% 5% 1% 5%;
-      flex-direction: column;
-      height: 60vh;
+      width: 50%;     
+     
     }
     form input, textarea{ 
       width: 100%;
-      margin-bottom: 2%;
-      background-color: black;
-      color: #38f9d7;
-      border: none;
-      border-radius: 5px;
+      margin-bottom: 1vh;  
       font-size: 15px;
-      font-weight:600;
       padding: 5%;
     }
     textarea{
