@@ -260,8 +260,7 @@ span:hover {
 .project-image {
   border-radius: 10px;
   width: 100%;
-  height: 40vh;
-  cursor: pointer;
+  height: 40vh; 
   overflow: hidden;
 }
 
@@ -304,28 +303,29 @@ span:hover {
   padding-top: 0px;
 }
 
-.project-info button {
+.project-info button{  
+  padding: 0;
   font-size: 16px;
-  width: 38%;
+  width: 49%;
   height: 2.5vh;
   background-color: #38f9d7;
   border: none;
   font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
   font-weight: 600;
+  
 }
 
-.project-info button:hover {
+.project-info button:hover{  
   background-color: black;
   color: #38f9d7;
   box-shadow: 1px 1px 10px 5px #38f9d7;
   cursor: pointer;
+  
 }
 
-.project-info a:hover {
+.project-info button:hover a{
   color: #38f9d7;
 }
-
-
 .project-title {
   color: gray;
   font-size: 20PX;
@@ -1469,234 +1469,8 @@ textarea {
     height: 10vh;
 
   }
+ 
 
-  /*CAPES */
-  .cape {
-    right: 81.5%;
-    width: 13%;
-    height: 6.5vh;
-  }
-
-  .cape:hover {
-    opacity: 1;
-  }
-
-  .cape p {
-    margin-top: 2vh;
-    font-size: 8px;
-  }
-
-  .capetwo {
-    right: 66.5%;
-    width: 12%;
-    height: 6.5vh;
-  }
-
-  .capetwo:hover {
-    opacity: 1;
-  }
-
-  .capetwo p {
-    margin-top: 2vh;
-    font-size: 14px;
-  }
-
-  .capethree {
-    right: 50.5%;
-    width: 13%;
-    height: 6.5vh;
-  }
-
-  .capethree:hover {
-    opacity: 1;
-  }
-
-  .capethree p {
-    margin-top: 2vh;
-    font-size: 16px;
-  }
-
-  .capefour {
-    right: 36.5%;
-    width: 12%;
-    height: 6.5vh;
-  }
-
-  .capefour:hover {
-    opacity: 1;
-  }
-
-  .capefour p {
-    margin-top: 2vh;
-    font-size: 12px;
-  }
-
-  .capefive {
-    right: 21.5%;
-    width: 12%;
-    height: 6.5vh;
-  }
-
-  .capefive:hover {
-    opacity: 1;
-  }
-
-  .capefive p {
-    margin-top: 2vh;
-    font-size: 12px;
-  }
-
-  .capesix {
-    right: 7.5%;
-    width: 12%;
-    height: 6.5vh;
-  }
-
-  .capesix:hover {
-    opacity: 1;
-  }
-
-  .capesix p {
-    margin-top: 2vh;
-    font-size: 16px;
-  }
-
-  .capeseven {
-    right: 42.5%;
-    width: 14%;
-    height: 6.5vh;
-  }
-
-  .capeseven:hover {
-    opacity: 1;
-  }
-
-  .capeseven p {
-    margin-top: 2vh;
-    font-size: 14px;
-  }
-
-  .capeeight {
-    right: 80.5%;
-    width: 13%;
-    height: 6.5vh;
-  }
-
-  .capeeight:hover {
-    opacity: 1;
-  }
-
-  .capeeight p {
-    margin-top: 2vh;
-    font-size: 12px;
-  }
-
-  .capenine {
-    right: 65.5%;
-    width: 13%;
-    height: 6.5vh;
-  }
-
-  .capenine:hover {
-    opacity: 1;
-  }
-
-  .capenine p {
-    margin-top: 1vh;
-    font-size: 12px;
-  }
-
-  .capeten {
-    right: 50.5%;
-    width: 13%;
-    height: 6.5vh;
-  }
-
-  .capeten:hover {
-    opacity: 1;
-  }
-
-  .capeten p {
-    margin-top: 2vh;
-    font-size: 12px;
-  }
-
-  .capeeleven {
-    right: 35.5%;
-    width: 14%;
-    height: 6.5vh;
-  }
-
-  .capeeleven:hover {
-    opacity: 1;
-  }
-
-  .capeeleven p {
-    margin-top: 2vh;
-    font-size: 11px;
-  }
-
-  .capetwelve {
-    right: 20.5%;
-    width: 14%;
-    height: 6.5vh;
-  }
-
-  .capetwelve:hover {
-    opacity: 1;
-  }
-
-  .capetwelve p {
-    margin-top: 2vh;
-    font-size: 14px;
-  }
-
-  .capethreet {
-    right: 6.5%;
-    width: 14%;
-    height: 6.5vh;
-  }
-
-  .capethreet:hover {
-    opacity: 1;
-  }
-
-  .capethreet p {
-    margin-top: 2vh;
-    font-size: 12px;
-  }
-
-  .capefourt {
-    right: 65.5%;
-    width: 13%;
-    height: 6.5vh;
-  }
-
-  .capefourt:hover {
-    opacity: 1;
-  }
-
-  .capefourt p {
-    margin-top: 2vh;
-    font-size: 12px;
-  }
-
-  .capefivet {
-    right: 20.5%;
-    width: 13%;
-    height: 6.5vh;
-  }
-
-  .capefivet:hover {
-    opacity: 1;
-  }
-
-  .capefivet p {
-    margin-top: 2vh;
-    font-size: 12px;
-  }
-
-  /*CAPES */
   /*CONTACT*/
   #form-box {
     border-radius: 5px;
