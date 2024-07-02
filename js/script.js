@@ -1,8 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var frases = [
-        "Programador Web.",
-        "Front-End.",
-        "Back-End."
+        "Back-End.",
+        "Front-End."
     ];
 
     var velocidadEscritura = 50;

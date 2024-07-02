@@ -399,7 +399,7 @@ span:hover {
   margin-bottom: 10px;
 }
 
-/*CARRUCEL PROYECTOS*/
+/* FINCARRUCEL PROYECTOS*/
 
 /*HABILIDADES*/
 #skills {
@@ -445,16 +445,16 @@ h4 {
 }
 
 .box {
-  width: 100%;
+  width: 50%;
 }
 
 .box img {
   cursor: pointer;
-  width: 80%;
+  width: 55%;
 }
 
 .box img:hover {
-  width: 85%;
+  width: 57%;
 }
 
 .card2 {
@@ -537,11 +537,11 @@ h4 {
 
 .box4 img {
   cursor: pointer;
-  width: 30%;
+  width: 17%;
 }
 
 .box4 img:hover {
-  width: 32%;
+  width: 19%;
 }
 
 /*CONTACT*/
@@ -1387,7 +1387,8 @@ textarea {
     height: 40vh;
   }
 
-  /*CARRUCEL PROYECTOS*/
+  /*FIN CARRUCEL PROYECTOS*/
+
   /*HABILIDADES*/
   #skills {
     position: absolute;
