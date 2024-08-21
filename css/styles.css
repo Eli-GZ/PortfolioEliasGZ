@@ -565,7 +565,7 @@ h4 {
 }
 
 #form-box {
-  border-radius: 10%;
+  border-radius: 5px;
   background-color: rgba(5, 230, 255, 0.087);
   backdrop-filter: blur(10px);
   width: 35%;
