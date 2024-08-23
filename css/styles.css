@@ -221,7 +221,7 @@ span:hover {
   background-color: rgba(5, 230, 255, 0.087);
   backdrop-filter: blur(7px);
   border-radius: 5px;
-  margin: 8% auto;
+  margin: 5% auto;
   padding: 2%;
   width: 85%;
 }
