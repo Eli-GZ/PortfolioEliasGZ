@@ -8,7 +8,8 @@ html {
 }
 
 body {
-  background-color: black;
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
   font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
   margin: 0;
   padding: 0;
