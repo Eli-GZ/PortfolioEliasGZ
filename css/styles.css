@@ -415,7 +415,7 @@ span:hover {
 h4 {
   margin: 0;
   text-align: center;
-  color: rgb(158, 158, 158);
+  color: white;
   height: 10vh;
   width: 100%;
   font-size: 25px;
@@ -453,11 +453,11 @@ h4 {
 
 .box img {
   cursor: pointer;
-  width: 55%;
+  width: 35%;
 }
 
 .box img:hover {
-  width: 57%;
+  width: 37%;
 }
 
 .card2 {
