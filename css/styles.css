@@ -8,8 +8,10 @@ html {
 }
 
 body {
+  /*<a href="http://www.freepik.com">Designed by Freepik</a>*/
   background-image: url(../img/background.jpg);
   background-attachment: fixed;
+  background-position: -85% 25%;
   font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
   margin: 0;
   padding: 0;
@@ -38,7 +40,7 @@ hr {
   top: 99vh;
   width: 85%;
   left: 8%;
-  border: 1px solid #38f9d7;
+  border: 1px solid white;
 }
 
 hr:nth-of-type(2) {
@@ -47,7 +49,7 @@ hr:nth-of-type(2) {
   top: 198vh;
   width: 85%;
   left: 8%;
-  border: 1px solid #38f9d7;
+  border: 1px solid white;
 }
 
 hr:nth-of-type(3) {
@@ -56,7 +58,7 @@ hr:nth-of-type(3) {
   top: 297vh;
   width: 85%;
   left: 8%;
-  border: 1px solid #38f9d7;
+  border: 1px solid white;
 }
 
 hr:nth-of-type(4) {
@@ -65,7 +67,7 @@ hr:nth-of-type(4) {
   top: 396vh;
   width: 85%;
   left: 8%;
-  border: 1px solid #38f9d7;
+  border: 1px solid white;
 }
 
 /*LINEAS*/
@@ -74,7 +76,7 @@ hr:nth-of-type(4) {
 header {
   position: fixed;
   display: flex;
-  background-color: #38f9d7;
+  background-color: #00feff;
   flex-direction: column;
   width: 15%;
   height: 100vh;
@@ -134,7 +136,7 @@ li a:hover {
 }
 
 #welcome-section h1 {
-  color: #38f9d7;
+  color: white;
   margin: 40vh 5vh 5vh;
   text-align: center;
   font-size: 70px;
@@ -172,7 +174,7 @@ h2::after {
 .marcador::after {
   content: "|";
   display: inline-block;
-  color: #38f9d7;
+  color: white;
 
 }
 
@@ -187,7 +189,6 @@ h3 {
   width: 10%;
   height: 3vh;
   border: 0;
-  border-radius: 8px;
   background-color: #38f9d7;
   font-weight: 900;
   font-size: 18px;
@@ -202,7 +203,6 @@ span:hover {
 }
 
 .float:hover {
-  border-radius: 8px;
   background-color: black;
   box-shadow: 1px 1px 10px 5px #38f9d7;
   transform: translate(0px, 5px);
@@ -214,7 +214,7 @@ span:hover {
 }
 
 /*SOBRE MI*/
-#sobre-mi {
+#sobre-mi {  
   position: absolute;
   width: 85%;
   left: 15%;
@@ -223,8 +223,13 @@ span:hover {
 }
 
 .sobre-text {
+  border-radius: 5px;
+  background-color: rgba(5, 230, 255, 0.087);
+  backdrop-filter: blur(7px);
+  border-radius: 5px;
   margin: 8% auto;
-  width: 80%;
+  padding: 2%;
+  width: 85%;
 }
 
 /*PROYECTOS*/
@@ -330,7 +335,7 @@ span:hover {
 }
 
 .project-title {
-  color: gray;
+  color: white;
   font-size: 20PX;
 }
 
@@ -422,8 +427,8 @@ h4 {
   font-size: 25px;
 }
 
-.marcador {  color: #38f9d7;
-
+.marcador {  
+   color: white;
   margin: 0;
   margin-top: 2.5vh;
   margin-bottom: 2.5vh;
@@ -948,7 +953,7 @@ textarea {
   }
 
   .project-title {
-    color: gray;
+    color: white;
     font-size: 20PX;
   }
 

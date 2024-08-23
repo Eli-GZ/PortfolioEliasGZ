@@ -8,6 +8,7 @@ html {
 }
 
 body {
+  /*Imagen de <a href="https://www.freepik.es/vector-gratis/panal-marco-formacion-luz-azul-claro_5323466.htm#page=3&query=fondo%20hexagonal%20negro&position=46&from_view=keyword&track=ais_hybrid&uuid=858b4634-f3ed-40ec-b79b-6f77849177b0">Freepik</a>*/
   background-image: url(../img/background.jpg);
   background-attachment: fixed;
   font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
