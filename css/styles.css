@@ -624,8 +624,13 @@ textarea {
     height: 6vh;
   }
 
+  .sobre-text {
+    margin: 0% auto;
+    width: 100%;
+  }
   h3 {
-    font-size: 40px;
+    font-size: 25
+    px;
   }
 
   .project-container {
@@ -671,7 +676,7 @@ textarea {
   }
 
   h3 {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .project-info button {
@@ -732,7 +737,7 @@ textarea {
 
   /*SOBRE MI*/
   h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   /*CARRUCEL PROYECTOS*/
@@ -892,16 +897,19 @@ textarea {
   #sobre-mi {
     position: absolute;
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 0vh;
     width: 100%;
     left: 0;
   }
 
   .sobre-text {
-    margin: 8% auto;
+    margin: 0% auto;
     width: 100%;
   }
 
+  .sobre-text h3 {
+    font-size: 25px;
+  }
   /*PROYECTOS*/
   #projects {
     position: absolute;
@@ -1356,13 +1364,13 @@ textarea {
 
   /*SOBRE MI*/
   #sobre-mi {
-    padding-top: 5vh;
+    padding-top: 0vh;
     width: 100%;
     left: 0;
   }
 
   .sobre-text {
-    margin: 15% auto;
+    margin: 0% auto;
     width: 100%;
   }
 
