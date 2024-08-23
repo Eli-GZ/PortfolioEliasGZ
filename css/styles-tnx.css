@@ -11,6 +11,7 @@ body {
   /*Imagen de <a href="https://www.freepik.es/vector-gratis/panal-marco-formacion-luz-azul-claro_5323466.htm#page=3&query=fondo%20hexagonal%20negro&position=46&from_view=keyword&track=ais_hybrid&uuid=858b4634-f3ed-40ec-b79b-6f77849177b0">Freepik</a>*/
   background-image: url(../img/background.jpg);
   background-attachment: fixed;
+  background-position: 75% 25%;
   font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
   margin: 0;
   padding: 0;
@@ -33,12 +34,6 @@ img {
 
 
 /*SECTION WELCOME*/
-#particles-js {
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
-}
 
 #welcome-section {
   text-align: center;
@@ -48,7 +43,7 @@ img {
 }
 
 #welcome-section h1 {
-  margin: 30vh 5vh 5vh;
+  margin: 40vh 5vh 5vh;
   text-align: center;
   font-size: 70px;
   font-weight: 900;
@@ -56,11 +51,9 @@ img {
 
 .float {
   font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
-  width: 12%;
+  width: 10%;
   height: 3vh;
   border: 0;
-  color: black;
-  border-radius: 8px;
   background-color: #38f9d7;
   font-weight: 900;
   font-size: 18px;
@@ -71,15 +64,14 @@ img {
 }
 
 .float:hover {
-  border-radius: 8px;
-  color: #38f9d7;
   background-color: black;
   box-shadow: 1px 1px 10px 5px #38f9d7;
   transform: translate(0px, 5px);
-  width: 14%;
+  width: 12%;
   font-size: 21px;
   -webkit-transform: translate(0px, 5px);
   -moz-transform: translate(0px, 5px);
+  cursor: pointer;
 }
 
 span:hover {
