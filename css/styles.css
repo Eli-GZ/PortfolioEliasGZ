@@ -1373,6 +1373,9 @@ textarea {
     margin: 0% auto;
     width: 100%;
   }
+  .sobre-text h3 {
+   font-size: 20px;
+  }
 
   /*PROYECTOS*/
   #projects {
