@@ -453,11 +453,11 @@ h4 {
 
 .box img {
   cursor: pointer;
-  width: 35%;
+  width: 30%;
 }
 
 .box img:hover {
-  width: 37%;
+  width: 32%;
 }
 
 .card2 {
@@ -480,11 +480,11 @@ h4 {
 
 .box2 img {
   cursor: pointer;
-  width: 17%;
+  width: 15%;
 }
 
 .box2 img:hover {
-  width: 18%;
+  width: 16%;
 }
 
 /*container2*/
@@ -513,11 +513,11 @@ h4 {
 
 .box3 img {
   cursor: pointer;
-  width: 80%;
+  width: 70%;
 }
 
 .box3 img:hover {
-  width: 85%;
+  width: 75%;
 }
 
 .card4 {
@@ -540,11 +540,11 @@ h4 {
 
 .box4 img {
   cursor: pointer;
-  width: 17%;
+  width: 15%;
 }
 
 .box4 img:hover {
-  width: 19%;
+  width: 16%;
 }
 
 /*CONTACT*/
