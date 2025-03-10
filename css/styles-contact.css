@@ -99,7 +99,7 @@ h2::after {
 .marcador::after {
   content: "|";
   display: inline-block;
-  color: rgb(36, 36, 36);
+  color: rgb(0, 255, 204);
 
 }
 
@@ -135,18 +135,17 @@ h4 {
 
 #form-box {
   border-radius: 5px;
-  background-color: rgba(5, 230, 255, 0.087);
-  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.572);
   width: 35%;
   padding: 1% 5% 1% 5%;
   flex-direction: column;
-  height: 60vh;
+  height: 61vh;
 }
 
 form input,
 textarea {
   width: 100%;
-  margin-bottom: 2%;
+  margin-bottom: 1%;
   background-color: black;
   color: #38f9d7;
   border: none;
@@ -154,13 +153,6 @@ textarea {
   font-size: 15px;
   font-weight: 600;
   padding: 5%;
-}
-
-textarea {
-  min-width: 100%;
-  max-width: 100%;
-  min-height: 25vh;
-  max-height: 25vh;
 }
 
 #boton:hover {

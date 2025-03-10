@@ -99,7 +99,7 @@ h2::after {
 .marcador::after {
   content: "|";
   display: inline-block;
-  color: rgb(36, 36, 36);
+  color: rgb(0, 255, 204);
 
 }
 
