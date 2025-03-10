@@ -109,59 +109,24 @@ h3 {
   font-weight: 500;
 }
 
-.float {
-  font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
-  width: 10%;
-  height: 3vh;
-  border: 2;
-  background-color: gray;
-  font-weight: 900;
-  font-size: 18px;
-  transition: .5s, color .10s;
-  -webkit-transition: .5s, color .10s;
-  -moz-transition: .5s, color .10s;
-
-}
-
-.float:hover {
-  background-color: gray;
-  box-shadow: 1px 1px 10px 5px black;
-  transform: translate(0px, 5px);
-  width: 12%;
-  font-size: 21px;
-  -webkit-transform: translate(0px, 5px);
-  -moz-transform: translate(0px, 5px);
-  cursor: pointer;
-}
-
 
 /*HABILIDADES*/
-#skills {
-  position: absolute;
-  width: 85%;
-
-
+#skills {  
 }
 
 h4 {
   margin: 0;
   text-align: center;
-  color: white;
-  height: 10vh;
+  color: white;  
   width: 100%;
   font-size: 25px;
 }
 
-.marcador {
-  color: rgb(36, 36, 36);
-  margin: 0;
-  margin-top: 2.5vh;
-  margin-bottom: 2.5vh;
-}
+
 
 #container {
   display: flex;
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 .card {
