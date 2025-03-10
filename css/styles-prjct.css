@@ -110,13 +110,14 @@ h3 {
 
 
 /*PROYECTOS*/
-#projects {  
-}
 
 /*CARRUCEL PROYECTOS*/
 .project-title{
   padding: 0;
   margin: 0;
+}
+.project-title h2{
+ margin: 8vh;
 }
 
 .project-container {

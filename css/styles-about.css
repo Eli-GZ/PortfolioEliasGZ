@@ -76,6 +76,9 @@ h2 {
   white-space: nowrap;
   overflow: hidden;
 }
+#sobre-title{
+  margin: 8vh;
+}
 .sobre-text{
   margin: 0 auto;
   color: white;
