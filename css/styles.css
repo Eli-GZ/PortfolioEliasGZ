@@ -30,7 +30,7 @@ a {
 /*NAVBAR*/
 header {
   display: flex;
-  background-color: black;  
+  background-color: black;    
 }
 
 
@@ -66,11 +66,17 @@ li a{
 /*SECTION WELCOME & PROFILE*/
 
 #welcome-section {  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20vh;
 }
 #welcome-part{
-position: relative;
-display:block;
-align-items: start;
+width: 50%;
+margin: 0 auto;
+padding: 0;
+align-items: center;
+text-align: center;
 }
 #welcome-section h1 {
   color: white;
@@ -79,10 +85,10 @@ align-items: start;
   font-weight: 900;
 }
 #welcome-part2{
- display: block;
+  width: 50%;
+ margin: 0 auto;
 }
 #foto-perfil { 
-  position:absolute;
   width: 50%;
   border-radius: 5%;
   box-shadow: 0px 0px 15px 5px rgb(0, 255, 204);
