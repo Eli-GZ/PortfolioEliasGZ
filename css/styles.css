@@ -8,7 +8,7 @@ html {
 }
 
 body { 
-  background-color: rgb(20, 20, 20);
+  background-color: black;
   font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
   margin: 0;
   padding: 0;
@@ -31,13 +31,14 @@ a {
 header {
   display: flex;
   background-color: black;    
+  box-shadow: 1px 1px 10px 2px white;
 }
 
 
 #menu-hamburger {
   margin: 0% auto;
   width: 15%;
-  display: none;
+  display: none;  
 }
 
 #navbar {
@@ -94,6 +95,22 @@ text-align: center;
   box-shadow: 0px 0px 15px 5px rgb(0, 255, 204);
 }
 
+.float:hover {
+  background-color: black;
+  box-shadow: 1px 1px 10px 5px rgb(0, 255, 204);
+  transform: translate(0px, 5px);
+  width: 30%;
+  font-size: 21px;
+  -webkit-transform: translate(0px, 5px);
+  -moz-transform: translate(0px, 5px);
+  cursor: pointer;
+}
+
+#icon-box img {
+  margin-top: 5vh;
+  border-radius: 10%;
+  height: 10vh;
+}
 h2 {
   color: rgb(0, 255, 204);  
   text-align: center;  
@@ -136,6 +153,332 @@ h3 {
   font-weight: 500;  
 }
 
+/*SOBRE MI*/
+#sobre-title{
+  margin: 8vh;
+}
+.sobre-text{
+  margin: 0 auto;
+  color: white;
+  width: 85%;
+}
+/*SOBRE MI*/
+
+
+/*PROYECTOS*/
+
+/*CARRUCEL PROYECTOS*/
+.project-title{
+  padding: 0;
+  margin: 0;
+}
+.project-title h2{
+ margin: 8vh;
+}
+
+.project-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin: 5% 5% 0% 5%;
+  padding: 0; 
+}
+
+.project-container::-webkit-scrollbar {
+  display: none;
+}
+
+.project-card {
+  flex: 0 0 auto;
+  width: 31%;  
+  margin-right: 1%;
+  margin-left: 1%;
+ 
+}
+
+.project-image {
+  border-radius: 10px;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.project-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  width: 90%;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background-color: pink;
+  transition: 0.5s;
+  cursor: pointer;
+  opacity: 0;
+  border-radius: 5px;
+}
+
+.project-card:hover .card-btn {
+  opacity: 1;
+}
+
+.card-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.project-info {
+  font-size: 15px;
+  width: 100%;  
+}
+
+.project-info button {
+  padding: 0;
+  font-size: 16px;
+  width: 49%;
+  height: 2.5vh;
+  background-color: #38f9d7;
+  border: none;
+  font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
+  font-weight: 600;
+
+}
+
+.project-info button:hover {
+  background-color: black;
+  color: #38f9d7;
+  box-shadow: 1px 1px 10px 5px #38f9d7;
+  cursor: pointer;
+
+}
+
+.project-info button:hover a {
+  color: #38f9d7;
+}
+
+.project-title {
+  color: white;
+  font-size: 20PX;
+}
+
+.pre-btn,
+.nxt-btn {
+  background-color: #38f9d7;
+  background: none;
+  border: none;
+  width: 5%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 998;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
+
+.collection-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.collection {
+  position: relative;
+}
+
+.collection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.collection p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.collection:nth-child(3) {
+  grid-column: span 2;
+  margin-bottom: 10px;
+}
+
+/* FINCARRUCEL PROYECTOS*/
+
+/*HABILIDADES*/
+#skills {  
+  margin: 8vh 20vh 20vh 20vh;
+}
+
+h4 {
+  margin: 0;
+  text-align: center;
+  color: white;  
+  width: 100%;
+  font-size: 25px;
+}
+
+
+#container {
+  display: flex;
+  margin-top: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#div-leng {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 25vh;
+  color: white;
+  font-size: 20px;
+}
+
+.box {
+  width: 50%;
+}
+
+.box img {
+  cursor: pointer;
+  width: 30%;
+}
+
+.box img:hover {
+  width: 32%;
+}
+
+.card2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#div-frame {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 25vh;
+  color: white;
+  font-size: 20px;
+}
+
+.box2 {
+  width: 100%;
+}
+
+.box2 img {
+  cursor: pointer;
+  width: 30%;
+}
+
+.box2 img:hover {
+  width: 35%;
+}
+
+/*container2*/
+
+#container2 {
+  display: flex;
+  margin-top: 5%;
+}
+
+.card3 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#div-tools {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 25vh;
+  color: white;
+  font-size: 20px;
+}
+
+.box3 {
+  width: 100%;
+}
+
+.box3 img {
+  cursor: pointer;
+  width: 55%;
+}
+
+.box3 img:hover {
+  width: 60%;
+}
+
+.card4 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#div-extras {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  height: 25vh;
+  color: white;
+  font-size: 20px;
+}
+
+.box4 {
+  width: 100%;
+}
+
+.box4 img {
+  cursor: pointer;
+  width: 15%;
+}
+
+.box4 img:hover {
+  width: 16%;
+}
+/*HABILIDADES END*/
+
+
 .float {
   font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
   width: 25%;
@@ -155,24 +498,55 @@ button a{
 button a:hover{
   color:rgb(0, 255, 204);
 }
-.float:hover {
-  background-color: black;
-  box-shadow: 1px 1px 10px 5px rgb(0, 255, 204);
-  transform: translate(0px, 5px);
-  width: 30%;
-  font-size: 21px;
-  -webkit-transform: translate(0px, 5px);
-  -moz-transform: translate(0px, 5px);
-  cursor: pointer;
+
+
+/*CONTACT*/
+.marcador{
+  margin: 8vh 10vh 1vh 10vh;
+}
+#contact{
+  margin: 0;
+  padding: 0;
+}
+#contact-box {  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+#form-box {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.572);
+  width: 35%;
+  padding: 1% 5% 1% 5%;
+  flex-direction: column;
+  height: 61vh;
+}
+
+form input,
+textarea {
+  width: 100%;
+  margin-bottom: 1%;
+  background-color: black;
+  color: #38f9d7;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5%;
+}
+
+#boton:hover {
+  box-shadow: 1px 1px 10px 5px #38f9d7;
+
+}
 
 #icon-box img {
   margin-top: 5vh;
   border-radius: 10%;
   height: 10vh;
 }
-
+/*CONTACT*/
 
 @media (max-width: 1700px) {
   #foto-perfil {
