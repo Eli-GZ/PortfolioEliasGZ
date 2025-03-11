@@ -86,7 +86,7 @@ text-align: center;
 
 #welcome-part p{
 color: white;
-font-size: 20px;
+font-size: 22px;
 margin-bottom: 5vh;
 }
 
@@ -145,7 +145,7 @@ margin-bottom: 5vh;
 h2 {
   color: rgb(0, 255, 204);  
   text-align: center;  
-  font-size: 40px;
+  font-size: 33px;
   font-weight: 900;
   white-space: nowrap;
   overflow: hidden;
@@ -180,8 +180,10 @@ a{
 
 h3 {
   text-align: center;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 500;  
+  margin-right: 15vh;
+  margin-left: 15vh;
 }
 
 /*SOBRE MI*/
@@ -372,7 +374,7 @@ h3 {
 
 /*HABILIDADES*/
 #skills {  
-  margin: 8vh 20vh 20vh 20vh;
+  margin: 8vh 30vh 20vh 30vh;
 }
 
 h4 {
