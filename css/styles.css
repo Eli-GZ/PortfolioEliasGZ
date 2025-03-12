@@ -7,7 +7,7 @@ html {
   box-sizing: border-box;
 }
 
-body { 
+body {
   background-color: rgb(0, 0, 0);
   font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
   margin: 0;
@@ -30,7 +30,7 @@ a {
 /*NAVBAR*/
 header {
   display: flex;
-  background-color: black;    
+  background-color: black;
   box-shadow: 1px 1px 10px 2px white;
 }
 
@@ -38,12 +38,12 @@ header {
 #menu-hamburger {
   margin: 0% auto;
   width: 15%;
-  display: none;  
+  display: none;
 }
 
 #navbar {
   margin-bottom: 5px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 ul {
@@ -56,7 +56,7 @@ li {
   padding: 10px 20px 10px 20px;
   display: inline-block;
 
-  
+
 }
 
 li a:hover {
@@ -64,39 +64,40 @@ li a:hover {
   font-style: italic;
 }
 
-li a{
+li a {
   color: rgb(0, 255, 204);
 }
 
 /*SECTION WELCOME & PROFILE*/
 
-#welcome-section {  
+#welcome-section {
   display: flex;
   align-items: center;
   text-align: center;
   margin: 10vh 20vh 20vh 20vh;
 }
-#welcome-part{
-width: 50%;
-margin: 0 auto;
-padding: 0;
-align-items: center;
-text-align: center;
+
+#welcome-part {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  align-items: center;
+  text-align: center;
 }
 
-#welcome-part p{
-color: white;
-font-size: 22px;
-margin-bottom: 5vh;
+#welcome-part p {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 5vh;
 }
 
-#welcome-part h2{
-  color: rgb(0, 255, 204);  
-  text-align: center;  
+#welcome-part h2 {
+  color: rgb(0, 255, 204);
+  text-align: center;
   font-size: 35px;
   font-weight: 900;
   margin-top: 0;
-  }
+}
 
 #welcome-section h1 {
   color: white;
@@ -105,11 +106,13 @@ margin-bottom: 5vh;
   font-weight: 900;
   margin-bottom: 2vh;
 }
-#welcome-part2{
+
+#welcome-part2 {
   width: 50%;
- margin: 0 auto;
+  margin: 0 auto;
 }
-#foto-perfil { 
+
+#foto-perfil {
   width: 50%;
   border-radius: 50%;
   box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
@@ -126,29 +129,32 @@ margin-bottom: 5vh;
   cursor: pointer;
 }
 
-#link-icon{
+#link-icon {
   margin-top: 5vh;
   border-radius: 10%;
   height: 8vh;
 }
-#github-icon{  
+
+#github-icon {
   margin-bottom: 1vh;
   border-radius: 10%;
   height: 6vh;
 }
-#email-icon{
+
+#email-icon {
   margin-top: 5vh;
   border-radius: 10%;
   height: 8vh;
 }
 
 h2 {
-  color: rgb(0, 255, 204);  
-  text-align: center;  
+  color: rgb(0, 255, 204);
+  text-align: center;
   font-size: 33px;
   font-weight: 900;
   white-space: nowrap;
   overflow: hidden;
+  padding-top: 2vh;
 }
 
 h2::after {
@@ -174,39 +180,42 @@ h2::after {
   display: inline-block;
 }
 
-a{
+a {
   color: black;
 }
 
 h3 {
   text-align: center;
   font-size: 26px;
-  font-weight: 500;  
+  font-weight: 500;
   margin-right: 15vh;
   margin-left: 15vh;
 }
 
 /*SOBRE MI*/
-#sobre-title{
+#sobre-title {
   margin: 8vh;
 }
-.sobre-text{
+
+.sobre-text {
   margin: 0 auto;
   color: white;
   width: 85%;
 }
+
 /*SOBRE MI*/
 
 
 /*PROYECTOS*/
 
 /*CARRUCEL PROYECTOS*/
-.project-title{
+.project-title {
   padding: 0;
   margin: 0;
 }
-.project-title h2{
- margin: 8vh;
+
+.project-title h2 {
+  margin: 8vh;
 }
 
 .project-container {
@@ -214,7 +223,7 @@ h3 {
   overflow-x: auto;
   scroll-behavior: smooth;
   margin: 5% 5% 0% 5%;
-  padding: 0; 
+  padding: 0;
 }
 
 .project-container::-webkit-scrollbar {
@@ -223,16 +232,16 @@ h3 {
 
 .project-card {
   flex: 0 0 auto;
-  width: 31%;  
+  width: 31%;
   margin-right: 1%;
   margin-left: 1%;
- 
+
 }
 
 .project-image {
   border-radius: 10px;
   width: 100%;
-  height: 50vh;
+  height: 50vh; 
   overflow: hidden;
 }
 
@@ -270,7 +279,8 @@ h3 {
 
 .project-info {
   font-size: 15px;
-  width: 100%;  
+  width: 100%;
+  height: 10vh;
 }
 
 .project-info button {
@@ -307,7 +317,7 @@ h3 {
   background-color: #38f9d7;
   background: none;
   border: none;
-  width: 5%;
+  width: 6%;
   height: 100vh;
   position: absolute;
   top: 0;
@@ -373,14 +383,14 @@ h3 {
 /* FINCARRUCEL PROYECTOS*/
 
 /*HABILIDADES*/
-#skills {  
+#skills {
   margin: 8vh 30vh 20vh 30vh;
 }
 
 h4 {
   margin: 0;
   text-align: center;
-  color: white;  
+  color: white;
   width: 100%;
   font-size: 25px;
 }
@@ -509,6 +519,7 @@ h4 {
 .box4 img:hover {
   width: 16%;
 }
+
 /*HABILIDADES END*/
 
 
@@ -518,30 +529,34 @@ h4 {
   height: 3vh;
   border: 2;
   color: black;
-  background-color: rgb(0, 255, 204);  
-  font-weight: 900;  
+  background-color: rgb(0, 255, 204);
+  font-weight: 900;
   font-size: 18px;
   transition: .5s, color .10s;
   -webkit-transition: .5s, color .10s;
   -moz-transition: .5s, color .10s;
 }
-button a{
-  color:black;
+
+button a {
+  color: black;
 }
-button a:hover{
-  color:rgb(0, 255, 204);
+
+button a:hover {
+  color: rgb(0, 255, 204);
 }
 
 
 /*CONTACT*/
-.marcador{
+.marcador {
   margin: 8vh 10vh 1vh 10vh;
 }
-#contact{
+
+#contact {
   margin: 0;
   padding: 0;
 }
-#contact-box {  
+
+#contact-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -579,6 +594,7 @@ textarea {
   border-radius: 10%;
   height: 10vh;
 }
+
 /*CONTACT*/
 
 @media (max-width: 1700px) {
@@ -605,9 +621,9 @@ textarea {
     margin: 0% auto;
     width: 100%;
   }
+
   h3 {
-    font-size: 25
-    px;
+    font-size: 25 px;
   }
 
   .project-container {
@@ -662,7 +678,7 @@ textarea {
     height: 4vh;
   }
 
-   #icon-box img {
+  #icon-box img {
     height: 9vh;
   }
 }
@@ -877,6 +893,7 @@ textarea {
   .sobre-text h3 {
     font-size: 25px;
   }
+
   /*PROYECTOS*/
   #projects {
     position: absolute;
@@ -1255,6 +1272,7 @@ textarea {
     height: 8vh;
   }
 }
+
 @media (max-width: 500px) {
 
   /*NAVBAR & PROFILE*/
@@ -1339,9 +1357,11 @@ textarea {
     margin: 15% auto;
     width: 100%;
   }
+
   .sobre-text h3 {
     font-size: 20px;
-   }
+  }
+
   /*PROYECTOS*/
   #projects {
     position: absolute;
@@ -1468,6 +1488,7 @@ textarea {
     height: 8vh;
   }
 }
+
 @media (max-width: 430px) {
 
   /*NAVBAR & PROFILE*/
@@ -1552,8 +1573,9 @@ textarea {
     margin: 0% auto;
     width: 100%;
   }
+
   .sobre-text h3 {
-   font-size: 20px;
+    font-size: 20px;
   }
 
   /*PROYECTOS*/
@@ -1684,6 +1706,7 @@ textarea {
     height: 8vh;
   }
 }
+
 @media (max-width: 330px) {
 
   /*NAVBAR & PROFILE*/
@@ -1768,8 +1791,9 @@ textarea {
     margin: 0% auto;
     width: 100%;
   }
+
   .sobre-text h3 {
-   font-size: 18px;
+    font-size: 18px;
   }
 
   /*PROYECTOS*/
