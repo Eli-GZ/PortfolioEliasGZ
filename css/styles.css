@@ -852,7 +852,9 @@ textarea {
     display: none;
   }
 
-  #welcome-section h1 {}
+  #welcome-section h1 {
+    margin-top: 15vh;
+  }
 
   h2 {
     text-align: center;
