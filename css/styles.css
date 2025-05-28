@@ -210,9 +210,7 @@ h4 {
   display: flex;
   flex-direction: column;
 }
-#projects-container{
-height: 200vh;
-}
+
 #project-cont{
   height: 100vh;
   width: 100%;
@@ -257,18 +255,6 @@ height: 200vh;
 
 
 
-/*HABILIDADES*/
-#skills {
-  display: none;
-  margin: 8vh 30vh 20vh 30vh;
-}
-
-
-/*HABILIDADES END*/
-
-
-
-
 /*CONTACT*/
 
 #contact {
@@ -284,9 +270,9 @@ height: 200vh;
 
 #form-box {
   border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.572);
-  width: 35%;
-  padding: 1% 5% 1% 5%;
+  background-color: #26324e;
+  width: 50%;
+  padding: 3% 5% 1% 5%;
   flex-direction: column;
   height: 61vh;
 }
@@ -295,22 +281,25 @@ form input,
 textarea {
   width: 100%;
   margin-bottom: 1%;
-  background-color: black;
-  color: #38f9d7;
+  background-color: #0c1019;
+  color: rgb(0, 255, 204);
   border: none;
   border-radius: 5px;
   font-size: 15px;
   font-weight: 600;
   padding: 5%;
 }
-
+#boton{
+  color: black;
+  background-color: rgb(0, 255, 204);
+}
 #boton:hover {
-  box-shadow: 1px 1px 10px 5px #38f9d7;
+  background-color:rgb(3, 182, 146) ;
 
 }
 
 footer{
-  height: 50vh;
+  height: 10vh;
 }
 
 /*CONTACT*/
