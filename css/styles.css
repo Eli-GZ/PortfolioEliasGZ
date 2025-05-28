@@ -1,6 +1,7 @@
 html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
   overflow-x: hidden;
   display: flex;
   justify-content: center;
@@ -12,13 +13,15 @@ html {
 
 body {
   background-color: #0c1019;
-  font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   margin: 0;
-  padding: 0;   
-  width: 60%;
+  padding: 0;
   height: 100vh;
-  color: black;
- 
+  width: 120vh;
+ display: inline-block;
+ justify-content: center;
+
 }
 
 a {
@@ -27,14 +30,23 @@ a {
   font-weight: bolder
 }
 
-
-
 /*NAVBAR*/
 header {
-  display: flex;
+  margin: 0;
+  padding: 0;
 }
-#navbar {
- position: relative;
+
+#Logo {
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 600;
+  margin: 0;
+  cursor: pointer;
+}
+
+#Logo img {
+  width: 40px;
 }
 
 #menu-hamburger {
@@ -43,88 +55,91 @@ header {
   display: none;
 }
 
-#navbar {
+#navbar {  
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 5px;
-  margin: 0 auto;
+ 
 }
 
-ul {
-  margin: 20px;
+ul {  
+  
   list-style: none;
 }
 
 li {
+  
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 20px;
   display: inline-block;
 }
 
 li a:hover {
-  color: rgb(0, 196, 154);
+  color: rgb(3, 182, 146);
 }
 
-li a {
-  color: rgb(0, 255, 204);
+li a {  
+  color: #38f9d7;
 }
 
 /*SECTION WELCOME & PROFILE*/
 
-#welcome-section {
+#welcome-section {   
+  margin-top: 10%;
   display: flex;
-  align-items: center;
-  text-align: center;
- 
+  align-items: center;  
+  justify-content: space-between;
 }
 
-#welcome-part {
-  width: 50%;
-  margin: 0 auto;
-  padding: 0;
-  align-items: center;
-  text-align: center;
+#welcome-part h1 { 
+  margin: 0 ;
+  padding: 0; 
 }
 
 #welcome-part p {
+  text-align: start;
   color: white;
   font-size: 22px;
   margin-bottom: 5vh;
 }
 
-#welcome-part h2 {
-  color: rgb(0, 255, 204);
-  text-align: center;
-  font-size: 35px;
-  font-weight: 900;
-  margin-top: 0;
-}
-
 #welcome-section h1 {
   color: white;
-  text-align: center;
-  font-size: 60px;
-  font-weight: 900;
-  margin-bottom: 2vh;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0; 
+  padding: 0; 
 }
 
-#welcome-part2 {
-  width: 50%;
-  margin: 0 auto;
+#welcome-part h2 {
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 3%;
+}
+
+#welcome-part2 {  
+  height: 500px;
+ text-align: end;
 }
 
 #foto-perfil {
-  width: 50%;
+  width: 60%;
   border-radius: 50%;
   box-shadow: 0px 0px 10px 1px rgb(255, 255, 255);
 }
 
-.float:hover {
-  background-color: black;
-  box-shadow: 1px 1px 10px 5px rgb(0, 255, 204);
-  transform: translate(0px, 5px);
-  width: 30%;
-  font-size: 21px;
-  -webkit-transform: translate(0px, 5px);
-  -moz-transform: translate(0px, 5px);
+.float {   
+  color: black;
+  width: 210px;
+  border-radius: 8px;
+  background-color: rgb(0, 255, 204); 
+  font-weight: 600;
+  font-size: 18px; 
+}
+.float:hover {    
+  background-color: rgb(3, 182, 146); 
   cursor: pointer;
 }
 
@@ -147,13 +162,12 @@ li a {
 }
 
 h2 {
-  color: rgb(0, 255, 204);
-  text-align: center;
+  color: white; 
   font-size: 33px;
   font-weight: 900;
   white-space: nowrap;
   overflow: hidden;
-  padding-top: 2vh;
+
 }
 
 h2::after {
@@ -191,19 +205,6 @@ h3 {
   margin-left: 15vh;
 }
 
-/*SOBRE MI*/
-#sobre-title {
-  margin: 8vh;
-}
-
-.sobre-text {
-  margin: 0 auto;
-  color: white;
-  width: 85%;
-}
-
-/*SOBRE MI*/
-
 
 /*PROYECTOS*/
 
@@ -214,14 +215,13 @@ h3 {
 }
 
 .project-title h2 {
-  margin: 8vh;
+  
 }
 
 .project-container {
   display: flex;
   overflow-x: auto;
   scroll-behavior: smooth;
-  margin: 5% 5% 0% 5%;
   padding: 0;
 }
 
@@ -522,27 +522,11 @@ h4 {
 /*HABILIDADES END*/
 
 
-.float {
-  font-family: "SF Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Roboto Mono", "Lucida Sans Typewriter", monospace;
-  width: 25%;
-  height: 3vh;
-  border: 2;
-  color: black;
-  background-color: rgb(0, 255, 204);
-  font-weight: 900;
-  font-size: 18px;
-  transition: .5s, color .10s;
-  -webkit-transition: .5s, color .10s;
-  -moz-transition: .5s, color .10s;
-}
 
 button a {
   color: black;
 }
 
-button a:hover {
-  color: rgb(0, 255, 204);
-}
 
 
 /*CONTACT*/

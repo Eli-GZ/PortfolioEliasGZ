@@ -1,48 +1,41 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var frases = [        
+    const textoFijo = "Desarrollador ";
+    const frases = [ 
         "Back-End",
         "Java",
-        "JavaScript"
+        "SpringBoot"
     ];
 
-    var velocidadEscritura = 50;
-    var tiempoEspera = 2000;
-    var elementoTexto = document.getElementById("texto");
-    var indiceFraseActual = 0;
+    const velocidadEscritura = 45;
+    const tiempoEspera = 800;
+    const elementoTexto = document.getElementById("texto");
+    let indiceFraseActual = 0;
 
     function escribirTexto(i) {
         if (i < frases[indiceFraseActual].length) {
-            elementoTexto.innerHTML += frases[indiceFraseActual].charAt(i);
-            setTimeout(function () {
-                escribirTexto(i + 1);
-            }, velocidadEscritura);
+            elementoTexto.innerHTML = textoFijo + frases[indiceFraseActual].substring(0, i + 1);
+            setTimeout(() => escribirTexto(i + 1), velocidadEscritura);
         } else {
-
-            setTimeout(function () {
-                borrarTexto();
-            }, tiempoEspera);
+            setTimeout(borrarTexto, tiempoEspera);
         }
     }
 
     function borrarTexto() {
-        var textoActual = elementoTexto.innerHTML;
-        var longitudTexto = textoActual.length;
-
-        if (longitudTexto > 0) {
-            elementoTexto.innerHTML = textoActual.substring(0, longitudTexto - 1);
-            setTimeout(function () {
-                borrarTexto();
-            }, velocidadEscritura);
+        const textoActual = frases[indiceFraseActual];
+        if (textoActual.length > 0) {
+            frases[indiceFraseActual] = textoActual.slice(0, -1);
+            elementoTexto.innerHTML = textoFijo + frases[indiceFraseActual];
+            setTimeout(borrarTexto, velocidadEscritura);
         } else {
-
+            // Restaurar la frase original y pasar a la siguiente
+            frases[indiceFraseActual] = textoActualOriginal[indiceFraseActual];
             indiceFraseActual = (indiceFraseActual + 1) % frases.length;
-
-
-            setTimeout(function () {
-                escribirTexto(0);
-            }, tiempoEspera);
+            setTimeout(() => escribirTexto(0), tiempoEspera);
         }
     }
+
+    // Guardar copias originales para restaurar después del borrado
+    const textoActualOriginal = [...frases];
 
     escribirTexto(0);
 });
