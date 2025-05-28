@@ -257,7 +257,6 @@ h4 {
 }
 
 
-
 /*CONTACT*/
 
 #contact {
@@ -266,7 +265,7 @@ h4 {
 }
 
 #contact-box {
-  border-radius: 5px; 
+  border-radius: 10px; 
   background-color: #26324e;
   display: flex;
   flex-direction: column;
@@ -307,11 +306,11 @@ textarea {
   margin-top: 1vh;
   margin-bottom: 6vh;
   object-fit: cover;
-  width: 50vh;
+  
 }
 
 footer{
-  height: 10vh;
+  height: vh;
 }
 
 /*CONTACT*/
@@ -937,41 +936,7 @@ footer{
 
   }
 
-  /*container2*/
-  #container2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0%;
-    height: 35vh;
-  }
-
-  .card3 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-tools {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 18vh;
-  }
-
-  .card4 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-extras {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-
-  }
+ 
 
   /*CONTACT*/
   #form-box {
