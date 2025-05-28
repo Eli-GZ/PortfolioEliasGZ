@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const frases = [ 
         "Back-End",
         "Java",
-        "SpringBoot"
+        "Springboot"
     ];
 
     const velocidadEscritura = 45;
-    const tiempoEspera = 800;
+    const tiempoEspera = 1500;
     const elementoTexto = document.getElementById("texto");
     let indiceFraseActual = 0;
 
