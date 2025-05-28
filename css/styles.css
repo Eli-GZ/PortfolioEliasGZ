@@ -266,14 +266,15 @@ h4 {
 }
 
 #contact-box {
+  border-radius: 5px; 
+  background-color: #26324e;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 #form-box {
-  border-radius: 5px;
-  background-color: #26324e;
+  
   width: 50%;
   padding: 3% 5% 1% 5%;
   flex-direction: column;
