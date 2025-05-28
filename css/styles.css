@@ -150,7 +150,8 @@ li a {
 #icon-welcome{
   display: flex;
   justify-content: space-between;
-  margin-top: 6vh;
+  margin-top: 2vh;
+  margin-bottom: 6vh;
   object-fit: cover;
   width: 20vh;
 }
