@@ -10,17 +10,21 @@
 </head>
 
 <body>
+<!--*************MENU-NAV****************-->
   <header id="header-bar">
     <img src="./img/menu.png" alt="" id="menu-hamburger" />
     <nav id="navbar">
       <p id="Logo">{<img src="./img/icono-nav.png" alt="">EliasGz}</p>
       <ul>
         <li><a href="./index.html">Inicio</a></li>
-        <li><a href="./proyectos.html">Proyectos</a></li>
+        <li><a href="./proyectos.html">Mis proyectos</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
     </nav>
   </header>
+<!--*************MENU-NAV****************-->
+
+<!--*************INICIO****************-->
   <section id="welcome-section">
     <div id="welcome-part">
       <h1>Hola, soy <b style="color: #38f9d7;">Elias Gonzalez</b>!👋</h1>
@@ -37,12 +41,11 @@
         <a href="./pdf/CV-EliasGonzalez2025.pdf" download="CV-ELIASGONZALEZ.pdf"><span>Descargar CV</span></a>
       </button>
       <div id="icon-welcome">
-        <a href="https://github.com/Eli-GZ" target="_blank"><img id="github-icon"
-            src="https://camo.githubusercontent.com/f3b4654c95bc61462e67c74fdd40e0bf142418869046918dec5f1f2be69e6782/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6475334a336358797a686a3735494f6776412f67697068792e676966"
-            alt="" /></a>
-        <a href="mailto:elias.d.gonzalez25@gmail.com" target="_blank"><img id="email-icon"
+        <a href="https://github.com/Eli-GZ" target="_blank" title="Github"><img id="github-icon"
+            src="./img/Contact/github-icon.png" alt="" /></a>
+        <a href="mailto:elias.d.gonzalez25@gmail.com" target="_blank" title="Email"><img id="email-icon"
             src="./img/Contact/gmail.icon.png" alt="" /></a>
-        <a href="https://www.linkedin.com/in/elias-gz/" target="_blank"><img id="link-icon"
+        <a href="https://www.linkedin.com/in/elias-gz/" target="_blank" title="Linkedin"><img id="link-icon"
             src="./img/Contact/link-icon.png" alt="" /></a>
       </div>
     </div>
@@ -50,7 +53,10 @@
       <img src="./img/Perfil.png" alt="foto-perfil" id="foto-perfil" />
     </div>
   </section>
-  <section id="projects-new">
+<!--*************INICIO****************-->
+
+<!--*************PROYECTOS****************-->
+<section id="projects-new">
     <h2>Proyectos <b style="color: #38f9d7;">recientes</b></h2>
     <div id="project-cont">
       <div class="project">
@@ -86,11 +92,16 @@
               </a>
             </button>
           </div>
-          <p>Este proyecto es una API RESTful desarrollada con Spring Boot que permite gestionar clientes, ventas y productos dentro de un sistema de administración de comercios. Ideal para integrarse con plataformas web o móviles.</p>
+          <div class="project-p">
+            <p>Este proyecto es una API RESTful desarrollada con Spring Boot que permite gestionar clientes, ventas y
+              productos dentro de un sistema de administración de comercios. Ideal para integrarse con plataformas web o
+              móviles.</p>
+          </div>
           <div class="button-cont">
             <button class="link-button"><a href="https://github.com/Eli-GZ/AppComercio" target="_blank">Link a
                 Repositorio</a></button>
-            <button class="link-button"><a href="https://drive.google.com/file/d/1LJSMYnT_i73fOWD-8CSsToTi7KKp-X8a/view?usp=sharing"
+            <button class="link-button"><a
+                href="https://drive.google.com/file/d/1LJSMYnT_i73fOWD-8CSsToTi7KKp-X8a/view?usp=sharing"
                 target="_blank">Link a demostración</a></button>
           </div>
         </div>
@@ -119,16 +130,21 @@
               </a>
             </button>
             <button class="skills" style="background-color: #76eefe;">
-              <a href="https://www.oracle.com/ar/mysql/what-is-mysql/" target="_blank">
+              <a href="https://cloud.google.com/mysql?hl=es" target="_blank">
                 MySQL
               </a>
             </button>
           </div>
-          <p>Esta aplicación de escritorio desarrollada en Java con Swing permite la administración de usuarios con sistema de login y almacenamiento de datos en MySQL. Ideal para sistemas internos de gestión en pequeñas y medianas empresas.</p>
-          <div class="button-cont"> 
+          <div class="project-p">
+            <p>Esta aplicación de escritorio desarrollada en Java con Swing permite la administración de usuarios con
+              sistema de login y almacenamiento de datos en MySQL. Ideal para sistemas internos de gestión en pequeñas y
+              medianas empresas.</p>
+          </div>
+          <div class="button-cont">
             <button class="link-button"><a href="https://github.com/Eli-GZ/SistemaUsuariosJAVA" target="_blank">Link a
                 Repositorio</a></button>
-            <button class="link-button"> <a href="https://drive.google.com/file/d/1SG3l-LxhNZZ3MZo8ZQg9VPYcPsgpDXr_/view?usp=sharing"
+            <button class="link-button"> <a
+                href="https://drive.google.com/file/d/1SG3l-LxhNZZ3MZo8ZQg9VPYcPsgpDXr_/view?usp=sharing"
                 target="_blank">Link a demostración</a></button>
           </div>
         </div>
@@ -158,27 +174,30 @@
               </a>
             </button>
             <button class="skills" style="background-color: #76eefe;">
-              <a href="https://www.oracle.com/ar/mysql/what-is-mysql/" target="_blank">
+              <a href="https://cloud.google.com/mysql?hl=es" target="_blank">
                 MySQL
               </a>
             </button>
           </div>
-          <p>Esta aplicación de escritorio desarrollada en Java con Swing permite gestionar una peluqueria de mascotas mediante operaciones CRUD de dueños, mascotas y consultas, utilizando MySQL como base de datos.</p>
+          <div class="project-p">
+            <p>Esta aplicación de escritorio desarrollada en Java con Swing permite gestionar una peluqueria de mascotas
+              mediante operaciones CRUD de dueños, mascotas y consultas, utilizando MySQL como base de datos.</p>
+          </div>
           <div class="button-cont">
-            <button class="link-button"><a href="https://github.com/Eli-GZ/PeluqueriaMascotas-JAVA" target="_blank">Link a
+            <button class="link-button"><a href="https://github.com/Eli-GZ/PeluqueriaMascotas-JAVA" target="_blank">Link
+                a
                 Repositorio</a></button>
-            <button class="link-button"> <a href="https://drive.google.com/file/d/1SG3l-LxhNZZ3MZo8ZQg9VPYcPsgpDXr_/view?usp=sharing"
+            <button class="link-button"> <a
+                href="https://drive.google.com/file/d/1SG3l-LxhNZZ3MZo8ZQg9VPYcPsgpDXr_/view?usp=sharing"
                 target="_blank">Link a demostración</a></button>
           </div>
         </div>
       </div>
-
-
     </div>
   </section>
+<!--*************PROYECTOS****************-->
 
-
-
+<!--*************CONTACTO****************-->
   <footer id="contact">
     <h2>
       <b style="color: #38f9d7;">Contacto</b>
@@ -198,19 +217,19 @@
       <img src="./img/contact-icon.png" alt="" width="50%" height="20%">
     </div>
     <div id="icon-end">
-      <a href="https://github.com/Eli-GZ" target="_blank"><img id="github-icon"
-          src="https://camo.githubusercontent.com/f3b4654c95bc61462e67c74fdd40e0bf142418869046918dec5f1f2be69e6782/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6475334a336358797a686a3735494f6776412f67697068792e676966"
-          alt="" /></a>
-      <a href="mailto:elias.d.gonzalez25@gmail.com" target="_blank"><img id="email-icon"
+      <a href="https://github.com/Eli-GZ" target="_blank" title="Github"><img id="github-icon"
+          src="./img/Contact/github-icon.png" alt="" /></a>
+      <a href="mailto:elias.d.gonzalez25@gmail.com" target="_blank" title="Email"><img id="email-icon"
           src="./img/Contact/gmail.icon.png" alt="" /></a>
-      <a href="https://www.linkedin.com/in/elias-gz/" target="_blank"><img id="link-icon"
+      <a href="https://www.linkedin.com/in/elias-gz/" target="_blank" title="Linkedin"><img id="link-icon"
           src="./img/Contact/link-icon.png" alt="" /></a>
     </div>
 
     <P style="color: gray;">©Copyright 2025 by EliasGZ</P>
   </footer>
+<!--*************CONTACTO****************-->
 
-  <!--Javascript section -->
+<!--Javascript section -->
 
   <script src="./js/menu.js"></script>
   <script src="./js/carrusel.js"></script>
