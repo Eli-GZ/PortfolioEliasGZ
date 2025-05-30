@@ -332,7 +332,7 @@ textarea {
   display: flex; 
   justify-content: center;
   margin-top: 1vh;
-  margin-bottom: 6vh;
+  margin-bottom: 2vh;
   object-fit: cover;
   
 }
