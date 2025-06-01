@@ -13,13 +13,13 @@ html {
 
 body {
   background-color: #0c1019;
-  font-family: "Roboto", sans-serif; 
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   height: 100vh;
   width: 120vh;
- display: inline-block;
- justify-content: center;
+  display: inline-block;
+  justify-content: center;
 
 }
 
@@ -54,20 +54,20 @@ header {
   display: none;
 }
 
-#navbar {  
+#navbar {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
-  margin-top: 1vh; 
+  margin-top: 1vh;
 }
 
-ul {  
-  
+ul {
+
   list-style: none;
 }
 
 li {
-  
+
   font-size: 20px;
   padding: 10px 10px 10px 20px;
   display: inline-block;
@@ -77,22 +77,22 @@ li a:hover {
   color: rgb(3, 182, 146);
 }
 
-li a {  
+li a {
   color: #38f9d7;
 }
 
 /*SECTION WELCOME & PROFILE*/
 
-#welcome-section {   
+#welcome-section {
   margin-top: 10%;
   display: flex;
-  align-items: center;  
+  align-items: center;
   justify-content: space-between;
 }
 
-#welcome-part h1 { 
-  margin: 0 ;
-  padding: 0; 
+#welcome-part h1 {
+  margin: 0;
+  padding: 0;
 }
 
 #welcome-part p {
@@ -106,8 +106,8 @@ li a {
   color: white;
   font-size: 35px;
   font-weight: 600;
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 
 #welcome-part h2 {
@@ -117,9 +117,9 @@ li a {
   margin-top: 3%;
 }
 
-#welcome-part2 {  
+#welcome-part2 {
   height: 500px;
- text-align: end;
+  text-align: end;
 }
 
 #foto-perfil {
@@ -128,47 +128,50 @@ li a {
   box-shadow: 0px 0px 10px 1px rgb(3, 182, 146);
 }
 
-.float {   
+.float {
   color: black;
   height: 3vh;
-  width:20vh;
+  width: 20vh;
   border-radius: 8px;
-  background-color: rgb(0, 255, 204); 
+  background-color: rgb(0, 255, 204);
   font-weight: 400;
-  font-size: 2vh; 
+  font-size: 2vh;
 }
-.float:hover {    
-  background-color: rgb(3, 182, 146); 
+
+.float:hover {
+  background-color: rgb(3, 182, 146);
   cursor: pointer;
 }
 
-#link-icon { 
+#link-icon {
   border-radius: 10%;
   height: 5vh;
   margin: 1vh 0 0 0;
 }
-#icon-welcome{
-  display: flex; 
+
+#icon-welcome {
+  display: flex;
   width: 20vh;
   justify-content: center;
   margin-top: 1vh;
   margin-bottom: 6vh;
-  object-fit: cover;  
+  object-fit: cover;
 }
-#github-icon {  
-  margin: 1vh 0vh 0vh 0vh; 
+
+#github-icon {
+  margin: 1vh 0vh 0vh 0vh;
   border-radius: 10%;
   height: 5vh;
 }
 
-#email-icon {   
+#email-icon {
   height: 5vh;
   margin: 1vh;
   top: 5%;
 }
 
 h2 {
-  color: white; 
+  color: white;
   font-size: 25px;
   font-weight: 600;
   white-space: nowrap;
@@ -181,7 +184,7 @@ h2 {
   animation: blink 0.7s infinite;
 }
 
-h4 { 
+h4 {
   margin: 1vh 0vh 1vh 0vh;
   color: white;
   width: 100%;
@@ -204,79 +207,92 @@ h4 {
   content: "|";
   display: inline-block;
 }
+
 /*FIN WELCOME*/
 
 /*PROYECTOS RECIENTES*/
-#projects-new{    
+#projects-new {
   display: flex;
   flex-direction: column;
 }
 
-#project-cont{
+#project-cont {
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.project{  
-  display: flex; 
-  background-color: #26324e; 
-  height: 30vh; 
+
+.project {
+  display: flex;
+  background-color: #26324e;
+  height: 30vh;
   margin-bottom: 3vh;
-  border-radius: 1vh; 
+  border-radius: 1vh;
 }
-.project-body{  
+
+.project-body {
   padding: 1vh;
-  width: 100%; 
+  width: 100%;
 }
-.project-body p{   
-  font-size: 20px;
+
+.project-body p {
+  font-size: 2vh;
   color: white;
   justify-content: start;
 }
-.project-body h4{  
+
+.project-body h4 {
   font-size: 20px;
   justify-content: start;
 }
-.project-p{
+
+.project-p {
   display: flex;
   height: 13vh;
 }
-.project-img{
+
+.project-img {
   padding: 2%;
-  width: 50%; 
+  width: 50%;
   overflow: hidden;
 }
-.skills{
+
+.skills {
   height: 3vh;
   width: 9cap;
 }
-#projects-new button{
+
+#projects-new button {
   cursor: pointer;
   border-radius: 4px;
   box-shadow: none;
   border: none;
 }
-.button-cont{
+
+.button-cont {
   height: 7vh;
-  display:flex ;  
+  display: flex;
   justify-content: end;
   text-align: end;
   align-items: end;
 }
-.link-button {   
-  margin: 1vh 0vh 0vh 1vh;   
+
+.link-button {
+  margin: 1vh 0vh 0vh 1vh;
   height: 2.5vh;
-  width:22vh;  
-  background-color: rgb(0, 255, 204); 
+  width: 22vh;
+  background-color: rgb(0, 255, 204);
   font-weight: 400;
-  font-size: 15px; 
+  font-size: 15px;
 }
-.link-button:hover {    
-  background-color: rgb(3, 182, 146); 
+
+.link-button:hover {
+  background-color: rgb(3, 182, 146);
   cursor: pointer;
 }
+
 .project-thumb {
   width: 100%;
   height: 100%;
@@ -292,19 +308,18 @@ h4 {
 }
 
 #contact-box {
-  border-radius: 10px; 
+  border-radius: 10px;
   background-color: #26324e;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 #form-box {
-  
-  width: 50%;
+  width: 50vh;
   padding: 3% 5% 1% 5%;
   flex-direction: column;
-  height: 61vh;
 }
 
 form input,
@@ -319,223 +334,34 @@ textarea {
   font-weight: 600;
   padding: 5%;
 }
-#boton{
+
+#boton {
   color: black;
   background-color: rgb(0, 255, 204);
 }
+
 #boton:hover {
-  background-color:rgb(3, 182, 146) ;
+  background-color: rgb(3, 182, 146);
 
 }
-#icon-end{
-  display: flex; 
+
+#icon-end {
+  display: flex;
   justify-content: center;
   margin-top: 1vh;
   margin-bottom: 2vh;
   object-fit: cover;
-  
-}
 
-footer{
-  height: vh;
 }
 
 /*CONTACT*/
 
-@media (max-width: 1700px) {
-  #foto-perfil {
-    width: 60%;
-  }
-
-  li {
-    font-size: 28px;
-  }
-
-  .float {
-    width: 20%;
-    height: 6vh;
-    font-size: 19px;
-  }
-
-  .float:hover {
-    width: 21%;
-    height: 6vh;
-  }
-
-  .sobre-text {
-    margin: 0% auto;
-    width: 100%;
-  }
-
-  h3 {
-    font-size: 25 px;
-  }
-
-  .project-container {
-    margin-top: 6%;
-  }
-
-  .project-card {
-    width: 32%;
-  }
-
-  .project-image {
-    height: 40vh;
-  }
-
-  .project-info button {
-    font-size: 25px;
-    width: 100%;
-    height: 3vh;
-  }
-
-  form input,
-  textarea {
-    font-size: 20px;
-  }
-
-  #form-box {
-    width: 25%;
-    height: 60vh;
-  }
-
-  #icon-box img {
-    height: 9vh;
-  }
-}
-
-@media (max-width: 1399.98px) {
-  #foto-perfil {
-    width: 60%;
-  }
-
-  #welcome-part p {
-    font-size: 20px;
-  }
-
-  li {
-    font-size: 25px;
-  }
-
-  h3 {
-    font-size: 25px;
-  }
-
-  .project-container {
-    margin-top: 0;
-  }
-
-  .project-info button {
-    font-size: 20px;
-    width: 100%;
-    margin: 1px;
-    height: 3vh;
-  }
-
-  #form-box {
-    width: 25%;
-    height: 59vh;
-  }
-
-  #icon-box img {
-    height: 9vh;
-  }
-}
-
-@media (max-width: 991.98px) {
-  #foto-perfil {
-    width: 60%;
-  }
-
-  #welcome-part p {
-    font-size: 18px;
-  }
-
-  li {
-    font-size: 18px;
-  }
-
-  li a:hover {
-    font-size: 20px;
-  }
-
-  #welcome-section h1 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 30px;
-  }
-
-  .float {
-    width: 30%;
-    height: 7vh;
-    font-size: 18px;
-  }
-
-  .float:hover {
-    width: 31%;
-    height: 7vh;
-    font-size: 18px;
-  }
-
-  /*SOBRE MI*/
-  h3 {
-    font-size: 20px;
-  }
-
-  /*CARRUCEL PROYECTOS*/
-  .project-container {
-    margin-top: 12%;
-    height: 50vh;
-  }
-
-  .project-card {
-    width: 32%;
-  }
-
-  .project-image {
-    height: 30vh;
-  }
-
-  .project-info button {
-    font-size: 15px;
-    height: 3vh;
-  }
-
-  .project-title {
-    font-size: 20PX;
-  }
+@media (max-width: 1700px) {}
 
 
-  .pre-btn img,
-  .nxt-btn img {
-    width: 7vh;
-  }
+@media (max-width: 1399.98px) {}
 
-  /*CONTACT*/
-
-  #form-box {
-    width: 50%;
-    height: 60vh;
-    font-size: 10px;
-  }
-
-  #form-box input {
-    width: 100%;
-    height: 1vh;
-    font-size: 17px;
-  }
-
-  #form-box textarea {
-    font-size: 18px;
-  }
-
-  #icon-box img {
-    height: 9vh;
-  }
-
-}
+@media (max-width: 991.98px) {}
 
 @media (max-width:767px) {
 
@@ -543,1096 +369,78 @@ footer{
   header {
     position: fixed;
     width: 100%;
-    height: 6vh;
+    height: 8vh;
     transition: 0.2s;
     background-color: #38f9d7;
+  }
 
+  #navbar p {
+    display: none;
   }
 
   #foto-perfil {
     display: none;
   }
 
-  #header-bar {
-    display: inline-block;
-    z-index: 999;
-  }
-
   #menu-hamburger {
     margin-top: 1vh;
-    width: 40px;
-    display: block;
-    position: relative;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
   }
 
   #navbar {
-
     display: none;
     z-index: 999;
   }
 
   ul {
-    margin-top: 3vh;
-    align-items: center;
     padding: 0;
-
   }
 
   li {
-    text-align: center;
-    font-size: 20px;
-    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   li a {
     display: inline-block;
     color: black;
   }
+  li a:hover {
+    color: grey;
+  }
 
   /*SECTION WELCOME*/
-  #welcome-section {
-    text-align: center;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  #welcome-section {    
+   margin: 18vh 3vh 0 3vh;
   }
 
   #welcome-part2 {
     display: none;
   }
-
-  #welcome-section h1 {
-    margin-top: 15vh;
+  #contact-box img{
+    display: none;
   }
 
-  h2 {
-    text-align: center;
-    font-size: 35px;
-
-  }
-
-  h3 {
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .float {
-    width: 25%;
-    height: 6vh;
-  }
-
-  .float:hover {
-    width: 25%;
-  }
-
-  /*SOBRE MI*/
-  #sobre-mi {
-    position: absolute;
-    text-align: center;
-    padding-top: 0vh;
-    width: 100%;
-    left: 0;
-  }
-
-  .sobre-text {
-    margin: 0% auto;
-    width: 100%;
-  }
-
-  .sobre-text h3 {
-    font-size: 25px;
-  }
-
-  /*PROYECTOS*/
-  #projects {
-    position: absolute;
-    text-align: center;
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  /*CARRUCEL PROYECTOS*/
-  .project-container {
-    margin-top: 10%;
-  }
-
-  .project-card {
-    width: 31%;
-    height: 100vh;
-  }
-
-  .project-image {
-    width: 100%;
-    height: 30vh;
-  }
-
-  .project-title {
-    height: 5vh;
-  }
-
-  button a {
-    width: 100%;
-  }
-
-  button a:hover {
-    color: #38f9d7;
-  }
-
-  .project-info button {
-    font-size: 18px;
-    width: 100%;
-    margin-bottom: 1vh;
-    height: 4vh;
-
-  }
-
-  .project-title {
-    color: white;
-    font-size: 20PX;
-  }
-
-  /*CARRUCEL PROYECTOS*/
-  /*HABILIDADES*/
-  #skills {
-    position: absolute;
-    text-align: center;
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-    height: 35vh;
-  }
-
-
-  .card {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-  }
-
-  #div-leng {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-  }
-
-  .card2 {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-  }
-
-  #div-frame {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-
-  }
-
-  /*container2*/
-  #container2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-    height: 35vh;
-  }
-
-  .card3 {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-  }
-
-  #div-tools {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-  }
-
-  .card4 {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-  }
-
-  #div-extras {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-
-  }
-
-  /*CONTACT*/
-  #contact {
-    position: absolute;
-    text-align: center;
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  #contact-box {
-    margin-top: 5vh;
-  }
-
-  #form-box {
-    width: 50%;
-
-  }
-
-  form input,
-  textarea {
-    width: 100%;
-    margin-bottom: 1vh;
-    font-size: 15px;
-    padding: 5%;
-  }
-
-  #icon-box img {
-    margin-top: 5vh;
-    border-radius: 10%;
-    height: 10vh;
-  }
 }
 
 @media (max-width: 550px) {
-
-  /*NAVBAR & PROFILE*/
-  header {
-    position: fixed;
-    width: 100%;
-    height: 7vh;
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-  }
-
-  #foto-perfil {
-    display: none;
-  }
-
-  #menu-hamburger {
-    margin-top: 1vh;
-    width: 40px;
-    position: relative;
-    display: block;
-  }
-
-  #navbar {
-    position: relative;
-    display: none;
-  }
-
-  ul {
-    margin-top: 3vh;
-  }
-
-  li {
-    margin: 1vh;
-    font-size: 20px;
-  }
-
-  /*SECTION WELCOME*/
-  #welcome-section {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    left: 0;
-  }
-
-  #welcome-section h1 {
-    margin: 25vh 0vh 0vh;
-    text-align: center;
-    font-size: 60px;
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 25px;
-    width: 100%;
-    margin: 5vh 0vh 5vh 0vh;
-    left: 0;
-  }
-
-  h3 {
-    text-align: center;
-    font-size: 20px;
-  }
-
-  .float {
-    width: 50%;
-    height: 6vh;
-  }
-
-  .float:hover {
-    width: 50%;
-  }
-
-  /*SOBRE MI*/
-  #sobre-mi {
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  .sobre-text {
-    margin: 15% auto;
-    width: 100%;
-  }
-
-  /*PROYECTOS*/
-  #projects {
-    position: absolute;
-    text-align: center;
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  /*CARRUCEL PROYECTOS*/
-  .project-container {
-    margin-top: 20%;
-  }
-
-  .project-card {
-    width: 100%;
-    height: 100vh;
-  }
-
-  .project-image {
-    width: 100%;
-    height: 40vh;
-  }
-
-  /*CARRUCEL PROYECTOS*/
-  /*HABILIDADES*/
-  #skills {
-    position: absolute;
-    text-align: center;
-    padding-top: 2vh;
-    width: 100%;
-    left: 0;
-  }
-
-  #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
-    height: 43vh;
-  }
-
-  h4 {
-    height: 5vh;
-  }
-
-  .card {
-    width: 90%;
-  }
-
-  #div-leng {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-  }
-
-  .card2 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-frame {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-
-  }
-
- 
-
-  /*CONTACT*/
-  #form-box {
-    border-radius: 5px;
-    width: 100%;
-  }
-
-  form input,
-  textarea {
-    width: 100%;
-    margin-bottom: 1vh;
-    font-size: 16px;
-    padding: 5%;
-  }
-
-  #icon-box img {
-    margin-top: 5vh;
-    height: 8vh;
-  }
+.project-img{
+  display: none;
+}
 }
 
 @media (max-width: 500px) {
 
-  /*NAVBAR & PROFILE*/
-  header {
-    position: fixed;
-    width: 100%;
-    height: 7vh;
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-  }
-
-  #foto-perfil {
-    display: none;
-  }
-
-  #menu-hamburger {
-    margin-top: 1vh;
-    width: 40px;
-    position: relative;
-    display: block;
-  }
-
-  #navbar {
-    position: relative;
-    display: none;
-  }
-
-  ul {
-    margin-top: 3vh;
-  }
-
-  li {
-    margin: 1vh;
-    font-size: 20px;
-  }
-
-  /*SECTION WELCOME*/
-  #welcome-section {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    left: 0;
-  }
-
-  #welcome-section h1 {
-    margin: 25vh 0vh 0vh;
-    text-align: center;
-    font-size: 60px;
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 25px;
-    width: 100%;
-    margin: 5vh 0vh 5vh 0vh;
-    left: 0;
-  }
-
-  h3 {
-    text-align: center;
-    font-size: 20px;
-  }
-
-  .float {
-    width: 50%;
-    height: 6vh;
-  }
-
-  .float:hover {
-    width: 50%;
-  }
-
-  /*SOBRE MI*/
-  #sobre-mi {
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  .sobre-text {
-    margin: 15% auto;
-    width: 100%;
-  }
-
-  .sobre-text h3 {
-    font-size: 20px;
-  }
-
-  /*PROYECTOS*/
-  #projects {
-    position: absolute;
-    text-align: center;
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  /*CARRUCEL PROYECTOS*/
-  .project-container {
-    margin-top: 20%;
-  }
-
-  .project-card {
-    width: 100%;
-    height: 100vh;
-  }
-
-  .project-image {
-    width: 100%;
-    height: 40vh;
-  }
-
-  /*CARRUCEL PROYECTOS*/
-  /*HABILIDADES*/
-  #skills {
-    position: absolute;
-    text-align: center;
-    padding-top: 2vh;
-    width: 100%;
-    left: 0;
-  }
-
-  #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15%;
-    height: 40vh;
-  }
-
-  h4 {
-    height: 5vh;
-  }
-
-  .card {
-    width: 90%;
-  }
-
-  #div-leng {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-  }
-
-  .card2 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-frame {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-
-  }
-
-  /*container2*/
-  #container2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0%;
-    height: 35vh;
-  }
-
-  .card3 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-tools {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-  }
-
-  .card4 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-extras {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-
-  }
-
-  /*CONTACT*/
-  #form-box {
-    border-radius: 5px;
-    width: 100%;
-  }
-
-  form input,
-  textarea {
-    width: 100%;
-    margin-bottom: 1vh;
-    font-size: 16px;
-    padding: 5%;
-  }
-
-  #icon-box img {
-    margin-top: 5vh;
-    height: 8vh;
-  }
+  
 }
 
 @media (max-width: 430px) {
 
-  /*NAVBAR & PROFILE*/
-  header {
-    position: fixed;
-    width: 100%;
-    height: 7vh;
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-  }
-
-  #foto-perfil {
-    display: none;
-  }
-
-  #menu-hamburger {
-    margin-top: 1vh;
-    width: 40px;
-    position: relative;
-    display: block;
-  }
-
-  #navbar {
-    position: relative;
-    display: none;
-  }
-
-  ul {
-    margin-top: 3vh;
-  }
-
-  li {
-    margin: 1vh;
-    font-size: 20px;
-  }
-
-  /*SECTION WELCOME*/
-  #welcome-section {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    left: 0;
-  }
-
-  #welcome-section h1 {
-    margin: 25vh 0vh 0vh;
-    text-align: center;
-    font-size: 60px;
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 25px;
-    width: 100%;
-    margin: 5vh 0vh 5vh 0vh;
-    left: 0;
-  }
-
-  h3 {
-    text-align: center;
-    font-size: 22px;
-  }
-
-  .float {
-    width: 50%;
-    height: 6vh;
-  }
-
-  .float:hover {
-    width: 50%;
-  }
-
-  /*SOBRE MI*/
-  #sobre-mi {
-    padding-top: 0vh;
-    width: 100%;
-    left: 0;
-  }
-
-  .sobre-text {
-    margin: 0% auto;
-    width: 100%;
-  }
-
-  .sobre-text h3 {
-    font-size: 20px;
-  }
-
-  /*PROYECTOS*/
-  #projects {
-    position: absolute;
-    text-align: center;
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  /*CARRUCEL PROYECTOS*/
-  .project-container {
-    margin-top: 20%;
-  }
-
-  .project-card {
-    width: 100%;
-    height: 100vh;
-  }
-
-  .project-image {
-    width: 100%;
-    height: 40vh;
-  }
-
-  /*FIN CARRUCEL PROYECTOS*/
-
-  /*HABILIDADES*/
-  #skills {
-    position: absolute;
-    text-align: center;
-    padding-top: 4vh;
-    width: 100%;
-    left: 0;
-  }
-
-  #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10%;
-    height: 40vh;
-  }
-
-  h4 {
-    height: 5vh;
-  }
-
-  .card {
-    width: 90%;
-  }
-
-  #div-leng {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-  }
-
-  .card2 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-frame {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-
-  }
-
-  /*container2*/
-  #container2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0%;
-    height: 35vh;
-  }
-
-  .card3 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-tools {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 20vh;
-  }
-
-  .card4 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-extras {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-
-  }
-
-
-  /*CONTACT*/
-  #form-box {
-    border-radius: 5px;
-    width: 100%;
-  }
-
-  form input,
-  textarea {
-    width: 100%;
-    margin-bottom: 1vh;
-    font-size: 16px;
-    padding: 5%;
-  }
-
-  #icon-box img {
-    margin-top: 5vh;
-    height: 8vh;
-  }
+  
 }
 
 @media (max-width: 330px) {
 
-  /*NAVBAR & PROFILE*/
-  header {
-    position: fixed;
-    width: 100%;
-    height: 7vh;
-    transition: 0.2s;
-    display: flex;
-    align-items: center;
-  }
-
-  #foto-perfil {
-    display: none;
-  }
-
-  #menu-hamburger {
-    margin-top: 1vh;
-    width: 40px;
-    position: relative;
-    display: block;
-  }
-
-  #navbar {
-    position: relative;
-    display: none;
-  }
-
-  ul {
-    margin-top: 3vh;
-  }
-
-  li {
-    margin: 1vh;
-    font-size: 20px;
-  }
-
-  /*SECTION WELCOME*/
-  #welcome-section {
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    left: 0;
-  }
-
-  #welcome-section h1 {
-    margin: 25vh 0vh 0vh;
-    text-align: center;
-    font-size: 60px;
-  }
-
-  h2 {
-    text-align: center;
-    font-size: 25px;
-    width: 100%;
-    margin: 5vh 0vh 5vh 0vh;
-    left: 0;
-  }
-
-  h3 {
-    text-align: center;
-    font-size: 22px;
-  }
-
-  .float {
-    width: 50%;
-    height: 6vh;
-  }
-
-  .float:hover {
-    width: 50%;
-  }
-
-  /*SOBRE MI*/
-  #sobre-mi {
-    padding-top: 0vh;
-    width: 100%;
-    left: 0;
-  }
-
-  .sobre-text {
-    margin: 0% auto;
-    width: 100%;
-  }
-
-  .sobre-text h3 {
-    font-size: 18px;
-  }
-
-  /*PROYECTOS*/
-  #projects {
-    position: absolute;
-    text-align: center;
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  /*CARRUCEL PROYECTOS*/
-  .project-container {
-    margin-top: 20%;
-  }
-
-  .project-card {
-    width: 100%;
-    height: 100vh;
-  }
-
-  .project-image {
-    width: 100%;
-    height: 40vh;
-  }
-
-  /*FIN CARRUCEL PROYECTOS*/
-
-  /*HABILIDADES*/
-  #skills {
-    position: absolute;
-    text-align: center;
-    padding-top: 5vh;
-    width: 100%;
-    left: 0;
-  }
-
-  #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15%;
-    height: 35vh;
-  }
-
-  h4 {
-    height: 5vh;
-  }
-
-  .card {
-    width: 90%;
-  }
-
-  #div-leng {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-  }
-
-  .card2 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-frame {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-
-  }
-
-  /*container2*/
-  #container2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0%;
-    height: 35vh;
-  }
-
-  .card3 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-tools {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 15vh;
-  }
-
-  .card4 {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-
-  #div-extras {
-    display: flex;
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-
-  }
-
-
-  /*CONTACT*/
-  #form-box {
-    border-radius: 5px;
-    width: 100%;
-  }
-
-  form input,
-  textarea {
-    width: 100%;
-    margin-bottom: 1vh;
-    font-size: 16px;
-    padding: 5%;
-  }
-
-  #icon-box img {
-    margin-top: 5vh;
-    height: 8vh;
-  }
 }

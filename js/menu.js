@@ -10,7 +10,7 @@ function hambClick() {
   menu.addEventListener('click', () => {
     if (!isActive) {
       navbar.style.display = "block";
-      header.style.height = "37vh"
+      header.style.height = "26vh"
       isActive = true;
     } else {
       navbar.style.removeProperty('display')
