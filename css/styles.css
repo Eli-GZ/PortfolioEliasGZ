@@ -240,7 +240,7 @@ h4 {
 .project-body p {
   font-size: 2vh;
   color: white;
-  justify-content: start;
+  justify-content: start;  
 }
 
 .project-body h4 {
@@ -250,7 +250,6 @@ h4 {
 
 .project-p {
   display: flex;
-  height: 13vh;
 }
 
 .project-img {
@@ -268,18 +267,17 @@ h4 {
   cursor: pointer;
   border-radius: 4px;
   box-shadow: none;
-  border: none;
+  border: none; 
 }
 
-.button-cont {
-  height: 7vh;
+.button-cont {  
   display: flex;
   justify-content: end;
   text-align: end;
-  align-items: end;
+  align-items: end; 
 }
 
-.link-button {
+.link-button {  
   margin: 1vh 0vh 0vh 1vh;
   height: 2.5vh;
   width: 22vh;
@@ -356,14 +354,8 @@ textarea {
 
 /*CONTACT*/
 
-@media (max-width: 1700px) {}
 
-
-@media (max-width: 1399.98px) {}
-
-@media (max-width: 991.98px) {}
-
-@media (max-width:767px) {
+@media (max-width:767px) {  
 
   /*NAVBAR & PROFILE*/
   header {
@@ -424,23 +416,22 @@ textarea {
   }
 
 }
-
-@media (max-width: 550px) {
+@media (max-width: 720px) {
 .project-img{
   display: none;
 }
+
+}
+@media (max-width: 560px) {
+.project-img{
+  display: none;
 }
 
-@media (max-width: 500px) {
-
-  
+}
+@media (min-width: 0px) and (max-width: 465px) {
+.project-img{
+  display: none;
 }
 
-@media (max-width: 430px) {
-
-  
-}
-
-@media (max-width: 330px) {
 
 }
