@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const textoFijo = "Desarrollador ";
     const frases = [ 
+        "Front-End",
         "Back-End",
-        "Java",
-        "Springboot"
+        "Full-stack"
     ];
 
     const velocidadEscritura = 45;
